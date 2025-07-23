@@ -36,7 +36,7 @@ function createPetal() {
 
   // Choisir une image parmi les 6 disponibles
   const index = Math.floor(Math.random() * 8) + 1;
-  petal.style.backgroundImage = `url('../menu-img/printemps-00${index}.png')`;
+  petal.style.backgroundImage = `url('/florilege/menu-img/printemps-00${index}.png')`;
 
   // Position initiale : hors écran à gauche, top aléatoire
   const top = Math.random() * 30;

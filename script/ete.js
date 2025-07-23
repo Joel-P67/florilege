@@ -36,7 +36,7 @@ function createSunflower() {
 
   // Choisir une image parmi les 8 disponibles
   const index = Math.floor(Math.random() * 8) + 1;
-  flower.style.backgroundImage = `url('../menu-img/ete-00${index}.png')`;
+  flower.style.backgroundImage = `url('/florilege/menu-img/ete-00${index}.png')`;
 
   const top = Math.random() * 30;
   flower.style.top = `${top}%`;

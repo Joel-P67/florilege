@@ -13,14 +13,14 @@
     "occasions": ["naissance", "anniversaire", "idees_cadeau"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 25.90,
-      "17 fleurs": 35.90,
-      "27 fleurs": 45.90
+      "11 fleurs": 25.9,
+      "17 fleurs": 35.9,
+      "27 fleurs": 45.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-001-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-001-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-001-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-001-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-001-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-001-03.webp"
     ]
   },
   {
@@ -37,14 +37,14 @@
     "occasions": ["felicitations", "mariage", "anniversaire"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 26.90,
-      "17 fleurs": 37.90,
-      "27 fleurs": 48.90
+      "11 fleurs": 26.9,
+      "17 fleurs": 37.9,
+      "27 fleurs": 48.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-002-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-002-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-002-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-002-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-002-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-002-03.webp"
     ]
   },
   {
@@ -61,14 +61,14 @@
     "occasions": ["amour", "mariage", "anniversaire"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 28.90,
-      "17 fleurs": 39.90,
-      "27 fleurs": 50.90
+      "11 fleurs": 28.9,
+      "17 fleurs": 39.9,
+      "27 fleurs": 50.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-003-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-003-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-003-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-003-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-003-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-003-03.webp"
     ]
   },
   {
@@ -85,14 +85,14 @@
     "occasions": ["anniversaire", "idees_cadeau", "felicitations"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 24.90,
-      "17 fleurs": 34.90,
-      "27 fleurs": 44.90
+      "11 fleurs": 24.9,
+      "17 fleurs": 34.9,
+      "27 fleurs": 44.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-004-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-004-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-004-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-004-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-004-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-004-03.webp"
     ]
   },
   {
@@ -109,14 +109,14 @@
     "occasions": ["amour", "mariage", "anniversaire"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 30.90,
-      "17 fleurs": 42.90,
-      "27 fleurs": 55.90
+      "11 fleurs": 30.9,
+      "17 fleurs": 42.9,
+      "27 fleurs": 55.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-005-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-005-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-005-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-005-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-005-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-005-03.webp"
     ]
   },
   {
@@ -133,14 +133,14 @@
     "occasions": ["naissance", "felicitations", "idees_cadeau"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 27.50,
-      "17 fleurs": 38.50,
-      "27 fleurs": 49.50
+      "11 fleurs": 27.5,
+      "17 fleurs": 38.5,
+      "27 fleurs": 49.5
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-006-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-006-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-006-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-006-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-006-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-006-03.webp"
     ]
   },
   {
@@ -157,14 +157,14 @@
     "occasions": ["mariage", "amour", "anniversaire"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 29.00,
-      "17 fleurs": 40.00,
-      "27 fleurs": 51.00
+      "11 fleurs": 29.0,
+      "17 fleurs": 40.0,
+      "27 fleurs": 51.0
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-007-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-007-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-007-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-007-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-007-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-007-03.webp"
     ]
   },
   {
@@ -181,14 +181,14 @@
     "occasions": ["felicitations", "naissance", "idees_cadeau"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 26.50,
-      "17 fleurs": 37.50,
-      "27 fleurs": 48.50
+      "11 fleurs": 26.5,
+      "17 fleurs": 37.5,
+      "27 fleurs": 48.5
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-008-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-008-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-008-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-008-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-008-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-008-03.webp"
     ]
   },
   {
@@ -205,14 +205,14 @@
     "occasions": ["amour", "mariage", "anniversaire"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 27.90,
-      "17 fleurs": 38.90,
-      "27 fleurs": 49.90
+      "11 fleurs": 27.9,
+      "17 fleurs": 38.9,
+      "27 fleurs": 49.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-009-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-009-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-009-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-009-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-009-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-009-03.webp"
     ]
   },
   {
@@ -229,14 +229,14 @@
     "occasions": ["anniversaire", "idees_cadeau", "felicitations"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 25.50,
-      "17 fleurs": 36.50,
-      "27 fleurs": 47.50
+      "11 fleurs": 25.5,
+      "17 fleurs": 36.5,
+      "27 fleurs": 47.5
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-010-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-010-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-010-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-010-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-010-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-010-03.webp"
     ]
   },
   {
@@ -253,14 +253,14 @@
     "occasions": ["mariage", "anniversaire", "amour"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 31.50,
-      "17 fleurs": 43.50,
-      "27 fleurs": 56.50
+      "11 fleurs": 31.5,
+      "17 fleurs": 43.5,
+      "27 fleurs": 56.5
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-011-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-011-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-011-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-011-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-011-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-011-03.webp"
     ]
   },
   {
@@ -277,15 +277,14 @@
     "occasions": ["mariage", "amour", "anniversaire"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 30.00,
-      "17 fleurs": 41.00,
-      "27 fleurs": 52.00
+      "11 fleurs": 30.0,
+      "17 fleurs": 41.0,
+      "27 fleurs": 52.0
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-012-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-012-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-012-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-012-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-012-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-012-03.webp"
     ]
   }
 ]
-

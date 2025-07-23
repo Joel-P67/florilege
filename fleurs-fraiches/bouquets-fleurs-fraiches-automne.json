@@ -18,9 +18,9 @@
       "27 fleurs": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-001-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-001-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-001-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-001-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-001-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-001-03.webp"
     ]
   },
   {
@@ -42,9 +42,9 @@
       "27 fleurs": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-002-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-002-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-002-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-002-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-002-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-002-03.webp"
     ]
   },
   {
@@ -66,9 +66,9 @@
       "27 fleurs": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-003-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-003-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-003-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-003-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-003-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-003-03.webp"
     ]
   },
   {
@@ -90,9 +90,9 @@
       "27 fleurs": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-004-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-004-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-004-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-004-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-004-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-004-03.webp"
     ]
   },
   {
@@ -114,9 +114,9 @@
       "27 fleurs": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-005-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-005-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-005-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-005-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-005-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-005-03.webp"
     ]
   },
   {
@@ -138,9 +138,9 @@
       "27 fleurs": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-006-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-006-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-006-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-006-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-006-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-006-03.webp"
     ]
   },
   {
@@ -162,9 +162,9 @@
       "27 fleurs": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-007-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-007-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-007-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-007-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-007-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-007-03.webp"
     ]
   },
   {
@@ -175,7 +175,12 @@
     "nom": "Éveil du Matin",
     "description": "Un bouquet énergique avec des marguerites blanches et jaunes, des tulipes et un feuillage frais pour bien commencer la journée.",
     "description_simple": "bouquet marguerites blanches jaunes tulipes feuillage",
-    "composition": ["marguerites blanches", "marguerites jaunes", "tulipes", "feuillage"],
+    "composition": [
+      "marguerites blanches",
+      "marguerites jaunes",
+      "tulipes",
+      "feuillage"
+    ],
     "couleur": ["blanc", "jaune"],
     "saison": "automne",
     "occasion": ["naissance", "anniversaire", "felicitations"],
@@ -186,9 +191,9 @@
       "27 fleurs": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-008-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-008-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-008-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-008-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-008-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-008-03.webp"
     ]
   },
   {
@@ -210,9 +215,9 @@
       "27 fleurs": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-009-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-009-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-009-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-009-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-009-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-009-03.webp"
     ]
   },
   {
@@ -234,9 +239,9 @@
       "27 fleurs": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-010-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-010-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-010-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-010-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-010-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-010-03.webp"
     ]
   },
   {
@@ -258,9 +263,9 @@
       "27 fleurs": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-011-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-011-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-011-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-011-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-011-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-011-03.webp"
     ]
   }
 ]

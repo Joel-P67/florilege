@@ -36,7 +36,7 @@ function createOakLeaf() {
 
   // Choisir une image parmi les 8 disponibles
   const index = Math.floor(Math.random() * 8) + 1;
-  feuille.style.backgroundImage = `url('../menu-img/automne-00${index}.png')`;
+  feuille.style.backgroundImage = `url('/florilege/menu-img/automne-00${index}.png')`;
 
   // Position initiale : hors écran à gauche, top aléatoire
   const top = Math.random() * 30;

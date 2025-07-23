@@ -35,7 +35,7 @@ function createFlake() {
 
   // Choisir une image parmi les 8 disponibles
   const index = Math.floor(Math.random() * 8) + 1;
-  flake.style.backgroundImage = `url('../menu-img/hiver-00${index}.png')`;
+  flake.style.backgroundImage = `url('/florilege/menu-img/hiver-00${index}.png')`;
 
   // Position initiale : hors écran à gauche, top aléatoire
   const top = Math.random() * 30;

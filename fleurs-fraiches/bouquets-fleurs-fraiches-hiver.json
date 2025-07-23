@@ -13,14 +13,14 @@
     "occasion": ["noel", "anniversaire", "felicitations"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 29.90,
-      "17 fleurs": 42.90,
-      "27 fleurs": 56.90
+      "11 fleurs": 29.9,
+      "17 fleurs": 42.9,
+      "27 fleurs": 56.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-001-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-001-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-001-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-001-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-001-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-001-03.webp"
     ]
   },
   {
@@ -37,14 +37,14 @@
     "occasion": ["naissance", "anniversaire", "felicitations"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 29.90,
-      "17 fleurs": 42.90,
-      "27 fleurs": 56.90
+      "11 fleurs": 29.9,
+      "17 fleurs": 42.9,
+      "27 fleurs": 56.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-002-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-002-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-002-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-002-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-002-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-002-03.webp"
     ]
   },
   {
@@ -61,14 +61,14 @@
     "occasion": ["mariage", "anniversaire", "idees_cadeau"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 29.90,
-      "17 fleurs": 42.90,
-      "27 fleurs": 56.90
+      "11 fleurs": 29.9,
+      "17 fleurs": 42.9,
+      "27 fleurs": 56.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-003-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-003-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-003-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-003-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-003-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-003-03.webp"
     ]
   },
   {
@@ -85,14 +85,14 @@
     "occasion": ["noel", "anniversaire", "felicitations"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 29.90,
-      "17 fleurs": 42.90,
-      "27 fleurs": 56.90
+      "11 fleurs": 29.9,
+      "17 fleurs": 42.9,
+      "27 fleurs": 56.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-004-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-004-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-004-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-004-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-004-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-004-03.webp"
     ]
   },
   {
@@ -109,14 +109,14 @@
     "occasion": ["idees_cadeau", "felicitations", "anniversaire"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 29.90,
-      "17 fleurs": 42.90,
-      "27 fleurs": 56.90
+      "11 fleurs": 29.9,
+      "17 fleurs": 42.9,
+      "27 fleurs": 56.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-005-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-005-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-005-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-005-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-005-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-005-03.webp"
     ]
   },
   {
@@ -133,14 +133,14 @@
     "occasion": ["noel", "felicitations", "anniversaire"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 29.90,
-      "17 fleurs": 42.90,
-      "27 fleurs": 56.90
+      "11 fleurs": 29.9,
+      "17 fleurs": 42.9,
+      "27 fleurs": 56.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-006-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-006-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-006-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-006-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-006-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-006-03.webp"
     ]
   },
   {
@@ -157,14 +157,14 @@
     "occasion": ["mariage", "naissance", "anniversaire"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 29.90,
-      "17 fleurs": 42.90,
-      "27 fleurs": 56.90
+      "11 fleurs": 29.9,
+      "17 fleurs": 42.9,
+      "27 fleurs": 56.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-007-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-007-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-007-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-007-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-007-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-007-03.webp"
     ]
   },
   {
@@ -181,14 +181,14 @@
     "occasion": ["noel", "idees_cadeau", "felicitations"],
     "tailles_generales": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 29.90,
-      "moyen": 42.90,
-      "grand": 56.90
+      "petit": 29.9,
+      "moyen": 42.9,
+      "grand": 56.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-008-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-008-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-008-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-008-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-008-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-008-03.webp"
     ]
   },
   {
@@ -205,14 +205,14 @@
     "occasion": ["amour", "anniversaire", "mariage"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 29.90,
-      "17 fleurs": 42.90,
-      "27 fleurs": 56.90
+      "11 fleurs": 29.9,
+      "17 fleurs": 42.9,
+      "27 fleurs": 56.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-009-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-009-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-009-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-009-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-009-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-009-03.webp"
     ]
   },
   {
@@ -229,14 +229,14 @@
     "occasion": ["noel", "idees_cadeau", "felicitations"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 29.90,
-      "17 fleurs": 42.90,
-      "27 fleurs": 56.90
+      "11 fleurs": 29.9,
+      "17 fleurs": 42.9,
+      "27 fleurs": 56.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-010-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-010-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-010-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-010-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-010-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-010-03.webp"
     ]
   },
   {
@@ -253,16 +253,14 @@
     "occasion": ["noel", "amour", "anniversaire"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 29.90,
-      "17 fleurs": 42.90,
-      "27 fleurs": 56.90
+      "11 fleurs": 29.9,
+      "17 fleurs": 42.9,
+      "27 fleurs": 56.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-011-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-011-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-011-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-011-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-011-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-011-03.webp"
     ]
   }
 ]
-
-

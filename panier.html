@@ -6,18 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Favicons standards -->
-  <link rel="icon" type="image/png" sizes="16x16" href="menu-img/favicon-16x16.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="menu-img/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="48x48" href="menu-img/favicon-48x48.png" />
-  <link rel="icon" type="image/png" sizes="64x64" href="menu-img/favicon-64x64.png" />
-  <link rel="icon" type="image/png" sizes="96x96" href="menu-img/favicon-96x96.png" />
-  <link rel="icon" type="image/png" sizes="128x128" href="menu-img/favicon-128x128.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="menu-img/favicon-192x192.png" />
-  <link rel="icon" type="image/png" sizes="256x256" href="menu-img/favicon-256x256.png" />
-  <link rel="icon" type="image/png" sizes="512x512" href="menu-img/favicon-512x512.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/florilege/menu-img/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/florilege/menu-img/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/florilege/menu-img/favicon-48x48.png" />
+  <link rel="icon" type="image/png" sizes="64x64" href="/florilege/menu-img/favicon-64x64.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/florilege/menu-img/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="128x128" href="/florilege/menu-img/favicon-128x128.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/florilege/menu-img/favicon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="256x256" href="/florilege/menu-img/favicon-256x256.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="/florilege/menu-img/favicon-512x512.png" />
 
   <!-- Apple Touch Icon pour iOS/iPadOS -->
-  <link rel="apple-touch-icon" sizes="180x180" href="menu-img/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/florilege/menu-img/apple-touch-icon.png" />
 
   <!-- Police -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,12 +28,12 @@
   <title>Florilège - Panier</title>
 
   <!-- Feuilles de style principales -->
-  <link rel="stylesheet" href="style/header.css" />
-  <link rel="stylesheet" href="style/base.css" />
-  <link rel="stylesheet" href="style/panier.css" />
+  <link rel="stylesheet" href="/florilege/style/header.css" />
+  <link rel="stylesheet" href="/florilege/style/base.css" />
+  <link rel="stylesheet" href="/florilege/style/panier.css" />
 
   <!-- Thème saisonnier (CSS + JS) -->
-  <script src="script/saisons.js"></script>
+  <script src="/florilege/script/saisons.js"></script>
   <script>
     function getSeason(date = new Date()) {
       const month = date.getMonth();
@@ -68,14 +68,14 @@
       // Ajouter la feuille CSS du thème
       const link = document.createElement('link');
       link.rel = 'stylesheet';
-      link.href = `style/${theme}.css`;
+      link.href = `/florilege/style/${theme}.css`;
       link.id = `theme-${theme}`;
       document.head.appendChild(link);
 
       // Ajouter le script JS du thème (après DOMContentLoaded)
       window.addEventListener('DOMContentLoaded', () => {
         const script = document.createElement('script');
-        script.src = `script/${theme}.js`;
+        script.src = `/florilege/script/${theme}.js`;
         script.id = `script-${theme}`;
         document.body.appendChild(script);
       });
@@ -147,7 +147,7 @@
 
   <!-- Menu Latéral -->
   <nav id="side-menu" class="side-menu hidden shared-bg">
-    <a href="../index.html" class="logo-lien">
+    <a href="/florilege/index.html" class="logo-lien">
       <img src="menu-img/logo.png" alt="Logo Florilège" class="logo-menu" />
     </a>
     <ul>
@@ -178,11 +178,11 @@
   <div class="flake-container"></div>
 
   <!-- Scripts Panier Navbar -->
-  <script src="script/panier-navbar.js"></script>
+  <script src="/florilege/script/panier-navbar.js"></script>
   <!-- Scripts -->
-  <script src="script/panier.js"></script>
+  <script src="/florilege/script/panier.js"></script>
   <!-- Message Alerte (popup) -->
-  <script src="script/popup.js"></script>
+  <script src="/florilege/script/popup.js"></script>
 </body>
 
 </html>

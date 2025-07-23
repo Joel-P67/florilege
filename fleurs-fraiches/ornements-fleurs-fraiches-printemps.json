@@ -13,14 +13,14 @@
     "occasion": ["felicitations", "naissance", "anniversaire"],
     "taille_disponible": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 31.90,
-      "moyen": 44.90,
-      "grand": 59.90
+      "petit": 31.9,
+      "moyen": 44.9,
+      "grand": 59.9
     },
     "images": [
-      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-001-01.webp",
-      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-001-02.webp",
-      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-001-03.webp"
+      "/florilege/fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-001-01.webp",
+      "/florilege/fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-001-02.webp",
+      "/florilege/fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-001-03.webp"
     ]
   },
   {
@@ -37,14 +37,14 @@
     "occasion": ["amour", "remerciements", "idees_cadeau"],
     "taille_disponible": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 31.90,
-      "moyen": 44.90,
-      "grand": 59.90
+      "petit": 31.9,
+      "moyen": 44.9,
+      "grand": 59.9
     },
     "images": [
-      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-002-01.webp",
-      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-002-02.webp",
-      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-002-03.webp"
+      "/florilege/fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-002-01.webp",
+      "/florilege/fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-002-02.webp",
+      "/florilege/fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-002-03.webp"
     ]
   },
   {
@@ -61,14 +61,14 @@
     "occasion": ["anniversaire", "naissance", "remerciements"],
     "taille_disponible": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 31.90,
-      "moyen": 44.90,
-      "grand": 59.90
+      "petit": 31.9,
+      "moyen": 44.9,
+      "grand": 59.9
     },
     "images": [
-      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-003-01.webp",
-      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-003-02.webp",
-      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-003-03.webp"
+      "/florilege/fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-003-01.webp",
+      "/florilege/fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-003-02.webp",
+      "/florilege/fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-003-03.webp"
     ]
   },
   {
@@ -85,14 +85,14 @@
     "occasion": ["mariage", "felicitations", "idees_cadeau"],
     "taille_disponible": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 31.90,
-      "moyen": 44.90,
-      "grand": 59.90
+      "petit": 31.9,
+      "moyen": 44.9,
+      "grand": 59.9
     },
     "images": [
-      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-004-01.webp",
-      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-004-02.webp",
-      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-004-03.webp"
+      "/florilege/fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-004-01.webp",
+      "/florilege/fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-004-02.webp",
+      "/florilege/fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-004-03.webp"
     ]
   },
   {
@@ -109,14 +109,14 @@
     "occasion": ["naissance", "remerciements", "anniversaire"],
     "taille_disponible": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 31.90,
-      "moyen": 44.90,
-      "grand": 59.90
+      "petit": 31.9,
+      "moyen": 44.9,
+      "grand": 59.9
     },
     "images": [
-      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-005-01.webp",
-      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-005-02.webp",
-      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-005-03.webp"
+      "/florilege/fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-005-01.webp",
+      "/florilege/fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-005-02.webp",
+      "/florilege/fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-005-03.webp"
     ]
   },
   {
@@ -128,19 +128,19 @@
     "description": "Une couronne fraîche et aérienne inspirée par les premières fleurs du printemps.",
     "description_simple": "couronne fleurs du printemps, fleurs de cerisier, anémones et feuilles d’eucalyptus.",
     "composition": ["fleurs de cerisier", "anémones", "feuilles d’eucalyptus"],
-    "couleur": ["rose", "blanc"], 
+    "couleur": ["rose", "blanc"],
     "saison": "printemps",
     "occasion": ["felicitations", "naissance", "idees_cadeau"],
     "taille_disponible": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 28.90,
-      "moyen": 41.90,
-      "grand": 55.90
+      "petit": 28.9,
+      "moyen": 41.9,
+      "grand": 55.9
     },
     "images": [
-      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-001-01.webp",
-      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-001-02.webp",
-      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-001-03.webp"
+      "/florilege/fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-001-01.webp",
+      "/florilege/fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-001-02.webp",
+      "/florilege/fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-001-03.webp"
     ]
   },
   {
@@ -157,14 +157,14 @@
     "occasion": ["mariage", "remerciements", "idees_cadeau"],
     "taille_disponible": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 28.90,
-      "moyen": 41.90,
-      "grand": 55.90
+      "petit": 28.9,
+      "moyen": 41.9,
+      "grand": 55.9
     },
     "images": [
-      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-002-01.webp",
-      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-002-02.webp",
-      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-002-03.webp"
+      "/florilege/fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-002-01.webp",
+      "/florilege/fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-002-02.webp",
+      "/florilege/fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-002-03.webp"
     ]
   },
   {
@@ -181,14 +181,14 @@
     "occasion": ["anniversaire", "amour", "felicitations"],
     "taille_disponible": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 28.90,
-      "moyen": 41.90,
-      "grand": 55.90
+      "petit": 28.9,
+      "moyen": 41.9,
+      "grand": 55.9
     },
     "images": [
-      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-003-01.webp",
-      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-003-02.webp",
-      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-003-03.webp"
+      "/florilege/fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-003-01.webp",
+      "/florilege/fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-003-02.webp",
+      "/florilege/fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-003-03.webp"
     ]
   },
   {
@@ -205,14 +205,14 @@
     "occasion": ["naissance", "idees_cadeau", "felicitations"],
     "taille_disponible": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 28.90,
-      "moyen": 41.90,
-      "grand": 55.90
+      "petit": 28.9,
+      "moyen": 41.9,
+      "grand": 55.9
     },
     "images": [
-      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-004-01.webp",
-      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-004-02.webp",
-      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-004-03.webp"
+      "/florilege/fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-004-01.webp",
+      "/florilege/fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-004-02.webp",
+      "/florilege/fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-004-03.webp"
     ]
   },
   {
@@ -229,15 +229,14 @@
     "occasion": ["mariage", "remerciements", "idees_cadeau"],
     "taille_disponible": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 28.90,
-      "moyen": 41.90,
-      "grand": 55.90
+      "petit": 28.9,
+      "moyen": 41.9,
+      "grand": 55.9
     },
     "images": [
-      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-005-01.webp",
-      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-005-02.webp",
-      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-005-03.webp"
+      "/florilege/fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-005-01.webp",
+      "/florilege/fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-005-02.webp",
+      "/florilege/fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-005-03.webp"
     ]
   }
 ]
-

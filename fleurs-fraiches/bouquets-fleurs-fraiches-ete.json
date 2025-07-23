@@ -13,14 +13,14 @@
     "occasion": ["anniversaire", "idees_cadeau", "felicitations"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 27.90,
-      "17 fleurs": 39.90,
-      "27 fleurs": 52.90
+      "11 fleurs": 27.9,
+      "17 fleurs": 39.9,
+      "27 fleurs": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-001-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-001-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-001-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-001-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-001-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-001-03.webp"
     ]
   },
   {
@@ -37,14 +37,14 @@
     "occasion": ["anniversaire", "amour", "idees_cadeau"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 27.90,
-      "17 fleurs": 39.90,
-      "27 fleurs": 52.90
+      "11 fleurs": 27.9,
+      "17 fleurs": 39.9,
+      "27 fleurs": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-002-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-002-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-002-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-002-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-002-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-002-03.webp"
     ]
   },
   {
@@ -61,14 +61,14 @@
     "occasion": ["amour", "mariage", "anniversaire"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 27.90,
-      "17 fleurs": 39.90,
-      "27 fleurs": 52.90
+      "11 fleurs": 27.9,
+      "17 fleurs": 39.9,
+      "27 fleurs": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-003-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-003-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-003-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-003-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-003-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-003-03.webp"
     ]
   },
   {
@@ -85,14 +85,14 @@
     "occasion": ["felicitations", "idees_cadeau", "anniversaire"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 27.90,
-      "17 fleurs": 39.90,
-      "27 fleurs": 52.90
+      "11 fleurs": 27.9,
+      "17 fleurs": 39.9,
+      "27 fleurs": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-004-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-004-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-004-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-004-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-004-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-004-03.webp"
     ]
   },
   {
@@ -109,14 +109,14 @@
     "occasion": ["amour", "anniversaire", "mariage"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 27.90,
-      "17 fleurs": 39.90,
-      "27 fleurs": 52.90
+      "11 fleurs": 27.9,
+      "17 fleurs": 39.9,
+      "27 fleurs": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-005-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-005-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-005-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-005-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-005-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-005-03.webp"
     ]
   },
   {
@@ -133,14 +133,14 @@
     "occasion": ["felicitations", "anniversaire", "idees_cadeau"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 27.90,
-      "17 fleurs": 39.90,
-      "27 fleurs": 52.90
+      "11 fleurs": 27.9,
+      "17 fleurs": 39.9,
+      "27 fleurs": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-006-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-006-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-006-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-006-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-006-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-006-03.webp"
     ]
   },
   {
@@ -157,14 +157,14 @@
     "occasion": ["remerciements", "felicitations", "anniversaire"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 27.90,
-      "17 fleurs": 39.90,
-      "27 fleurs": 52.90
+      "11 fleurs": 27.9,
+      "17 fleurs": 39.9,
+      "27 fleurs": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-007-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-007-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-007-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-007-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-007-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-007-03.webp"
     ]
   },
   {
@@ -181,14 +181,14 @@
     "occasion": ["felicitations", "mariage", "idees_cadeau"],
     "tailles_generales": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 27.90,
-      "moyen": 39.90,
-      "grand": 52.90
+      "petit": 27.9,
+      "moyen": 39.9,
+      "grand": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-008-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-008-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-008-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-008-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-008-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-008-03.webp"
     ]
   },
   {
@@ -205,16 +205,16 @@
     "occasion": ["amour", "naissance", "remerciements"],
     "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
     "tarifs": {
-      "11 fleurs": 27.90,
-      "17 fleurs": 39.90,
-      "27 fleurs": 52.90
+      "11 fleurs": 27.9,
+      "17 fleurs": 39.9,
+      "27 fleurs": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-009-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-009-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-009-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-009-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-009-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-009-03.webp"
     ]
-  }, 
+  },
   {
     "id": "bouquets-fleurs-fraiches-ete-010",
     "categorie": "fleurs_fraiches",
@@ -229,14 +229,14 @@
     "occasion": ["anniversaire", "amour", "felicitations"],
     "tailles_generales": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 27.90,
-      "moyen": 39.90,
-      "grand": 52.90
+      "petit": 27.9,
+      "moyen": 39.9,
+      "grand": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-010-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-010-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-010-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-010-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-010-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-010-03.webp"
     ]
   },
   {
@@ -253,14 +253,14 @@
     "occasion": ["idees_cadeau", "anniversaire", "remerciements"],
     "tailles_generales": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 27.90,
-      "moyen": 39.90,
-      "grand": 52.90
+      "petit": 27.9,
+      "moyen": 39.9,
+      "grand": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-011-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-011-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-011-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-011-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-011-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-011-03.webp"
     ]
   },
   {
@@ -277,16 +277,14 @@
     "occasion": ["mariage", "remerciements", "naissance"],
     "tailles_generales": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 27.90,
-      "moyen": 39.90,
-      "grand": 52.90
+      "petit": 27.9,
+      "moyen": 39.9,
+      "grand": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-012-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-012-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-012-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-012-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-012-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-012-03.webp"
     ]
   }
 ]
-
-

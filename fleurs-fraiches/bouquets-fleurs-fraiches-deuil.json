@@ -13,14 +13,14 @@
     "occasion": ["deuil"],
     "tailles_generales": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 29.90,
-      "moyen": 42.90,
-      "grand": 56.90
+      "petit": 29.9,
+      "moyen": 42.9,
+      "grand": 56.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-001-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-001-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-001-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-001-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-001-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-001-03.webp"
     ]
   },
   {
@@ -37,14 +37,14 @@
     "occasion": ["deuil"],
     "tailles_generales": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 28.90,
-      "moyen": 40.90,
-      "grand": 55.90
+      "petit": 28.9,
+      "moyen": 40.9,
+      "grand": 55.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-002-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-002-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-002-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-002-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-002-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-002-03.webp"
     ]
   },
   {
@@ -61,14 +61,14 @@
     "occasion": ["deuil"],
     "tailles_generales": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 32.90,
-      "moyen": 45.90,
-      "grand": 59.90
+      "petit": 32.9,
+      "moyen": 45.9,
+      "grand": 59.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-003-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-003-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-003-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-003-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-003-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-003-03.webp"
     ]
   },
   {
@@ -85,14 +85,14 @@
     "occasion": ["deuil"],
     "tailles_generales": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 26.90,
-      "moyen": 38.90,
-      "grand": 50.90
+      "petit": 26.9,
+      "moyen": 38.9,
+      "grand": 50.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-004-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-004-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-004-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-004-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-004-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-004-03.webp"
     ]
   },
   {
@@ -109,14 +109,14 @@
     "occasion": ["deuil"],
     "tailles_generales": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 30.90,
-      "moyen": 43.90,
-      "grand": 58.90
+      "petit": 30.9,
+      "moyen": 43.9,
+      "grand": 58.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-005-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-005-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-005-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-005-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-005-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-005-03.webp"
     ]
   },
   {
@@ -133,14 +133,14 @@
     "occasion": ["deuil"],
     "tailles_generales": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 31.90,
-      "moyen": 44.90,
-      "grand": 59.90
+      "petit": 31.9,
+      "moyen": 44.9,
+      "grand": 59.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-006-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-006-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-006-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-006-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-006-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-006-03.webp"
     ]
   },
   {
@@ -157,14 +157,14 @@
     "occasion": ["deuil"],
     "tailles_generales": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 33.90,
-      "moyen": 46.90,
-      "grand": 60.90
+      "petit": 33.9,
+      "moyen": 46.9,
+      "grand": 60.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-007-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-007-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-007-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-007-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-007-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-007-03.webp"
     ]
   },
   {
@@ -181,14 +181,14 @@
     "occasion": ["deuil"],
     "tailles_generales": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 29.90,
-      "moyen": 42.90,
-      "grand": 57.90
+      "petit": 29.9,
+      "moyen": 42.9,
+      "grand": 57.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-008-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-008-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-008-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-008-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-008-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-008-03.webp"
     ]
   },
   {
@@ -205,14 +205,14 @@
     "occasion": ["deuil"],
     "tailles_generales": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 27.90,
-      "moyen": 39.90,
-      "grand": 52.90
+      "petit": 27.9,
+      "moyen": 39.9,
+      "grand": 52.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-009-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-009-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-009-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-009-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-009-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-009-03.webp"
     ]
   },
   {
@@ -229,14 +229,14 @@
     "occasion": ["deuil"],
     "tailles_generales": ["petit", "moyen", "grand"],
     "tarifs": {
-      "petit": 34.90,
-      "moyen": 48.90,
-      "grand": 62.90
+      "petit": 34.9,
+      "moyen": 48.9,
+      "grand": 62.9
     },
     "images": [
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-010-01.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-010-02.webp",
-      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-010-03.webp"
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-010-01.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-010-02.webp",
+      "/florilege/fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-010-03.webp"
     ]
   }
 ]
