@@ -3,8 +3,62 @@
 =============================== */
 
 :root {
+  /* === Couleurs === */
+  --beige-fond: #cca991;
+  --orange-rouille: #cc5027;
+  --blanc: #ffffff;
+  --orange-bronze: #d57439;
+  --brun-noisette: #965d40;
+  --rouge-brique: #c21e1e;
+  --beige-moyen: #c29468;
+  --beige-clair: #dcb17a;
+  --beige-jaune: #dcb17a;
+  --rouge-foncé: #c21e1e;
+
+  /* === Dégradé de fond partagé === */
   --bg-gradient: linear-gradient(to right top,
-      #7f432f, #965d40, #ac7853, #c29468, #d7b17f, #dcb17a, #e1b275, #e6b270, #de9452, #d57439, #cc5027, #c21e1e);
+      #7f432f, #965d40, #ac7853, #c29468, #d7b17f,
+      #dcb17a, #e1b275, #e6b270, #de9452, #d57439,
+      #cc5027, #c21e1e);
+
+  /* === Effets === */
+  --ombre-texte: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  --ombre-boite: 0 4px 12px rgba(0, 0, 0, 0.5);
+
+  /* === Tailles === */
+  --taille-logo: 40px;
+  --taille-logo-max: 90px;
+  --taille-burger: 1.6rem;
+  --taille-icones: 1.2em;
+  --taille-logo-texte-grand: 1.8em;
+  --taille-logo-texte-petit: 1.4em;
+  --taille-saison-select: 0.9em;
+  --taille-saison-select-small: 0.85em;
+  --taille-compteur: 0.9em;
+
+  /* === Marges / Gaps === */
+  --gap-principal: 0.6em;
+  --gap-petit: 0.3em;
+  --gap-mini: 0.2em;
+  --marge-haut-ligne: 0.2em;
+  --marge-haut-ligne-small: 0.3em;
+
+  /* === Layout navbar === */
+  --navbar-padding: 0.6em 1em;
+  --navbar-hauteur: 3.75rem;
+  --navbar-hauteur-small: 3rem;
+
+  /* === Largeur menu latéral === */
+  --side-menu-large: 275px;
+
+  /* === Rayon bordures === */
+  --rayon-select: 4px;
+  --rayon-hover-menu: 8px;
+  --rayon-compteur: 50%;
+
+  /* === Durées === */
+  --duree-animation: 0.3s;
+  --duree-fleur: 5s;
 }
 
 /* ===============================
