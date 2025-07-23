@@ -1,0 +1,106 @@
+/* ============================
+   FORMULAIRE DE FILTRE PRODUITS
+============================ */
+
+.section-filtre form {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px 20px;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.section-filtre label {
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.section-filtre select {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+#form-filtre select {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  padding: 0.4em 0.6em;
+  background: white;
+}
+
+/* ============================
+   RÉSULTATS DES PRODUITS
+============================ */
+
+.section-resultats #liste-produits {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.section-resultats #liste-produits a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.section-resultats .produit {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-resultats .produit:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.section-resultats .produit img {
+  max-width: 100%;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 0 !important;
+  box-shadow: none !important;
+}
+
+.section-resultats #message-aucun {
+  font-weight: bold;
+  margin-top: 20px;
+  color: red;
+}
+
+/* ============================
+   RESPONSIVE DESIGN
+============================ */
+
+@media (max-width: 1024px),
+(max-width: 768px),
+(max-width: 480px) {
+  .section-filtre form {
+    grid-template-columns: 1fr;
+    gap: 10px 0;
+    padding: 0 20px;
+    margin: 20px auto;
+  }
+
+  .section-filtre label {
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .section-filtre select {
+    width: 100%;
+  }
+}

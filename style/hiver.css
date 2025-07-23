@@ -1,0 +1,184 @@
+/* ===============================
+  Root
+=============================== */
+
+:root {
+  --bg-gradient: linear-gradient(to right top,
+      #93918e, #a3a09c, #b4b0aa, #c5bfb8, #d6cfc6, #dbcec5, #e0cdc5, #e5ccc7, #dabbc2, #c5adc2, #a5a2c1, #7d9ab9);
+}
+
+/* ===============================
+  Header
+=============================== */
+
+/* ----- Navbar + Menu Latéral ----- */
+.shared-bg {
+  background-image: var(--bg-gradient);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100vw 100vh;
+  background-position: top left;
+}
+
+.selecteur-saison select option {
+  background-color: #D9F5FB;
+  /* ou toute autre couleur adaptée */
+  color: #777;
+}
+
+/* ===============================
+  Flocons animés
+=============================== */
+
+.flake-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1001;
+  overflow: hidden;
+}
+
+.flake {
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  opacity: 0;
+  animation: floatFlake 5s linear forwards;
+}
+
+@keyframes floatFlake {
+  0% {
+    transform: translateX(-50px) translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateX(50vw) translateY(50vh) rotate(180deg);
+    opacity: 0.6;
+  }
+
+  100% {
+    transform: translateX(100vw) translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+/* ===============================
+  Couleurs Thème
+=============================== */
+
+/* ----- Général ----- */
+body {
+  background-color: #D9F5FB;
+}
+
+.section-color {
+  background: var(--bg-gradient);
+  border: 1px solid #7d9ab9;
+}
+
+/* Titres */
+h1 {
+  color: #7d9ab9;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+h3 {
+  color: #a5a2c1;
+}
+
+h4 {
+  color: #73f9c6;
+}
+
+h5 {
+  color: #444444;
+}
+
+h6 {
+  color: #ffffff;
+}
+
+/* ----- Tableau ----- */
+.table-tarifs {
+  border: 1px solid #7d9ab9;
+}
+
+.table-tarifs thead {
+  background: var(--bg-gradient);
+}
+
+.table-tarifs tbody tr {
+  background-color: #a5a2c1;
+}
+
+.table-tarifs th,
+.table-tarifs td {
+  border: 1px solid #7d9ab9;
+}
+
+/* ----- Responsive ----- */
+@media screen and (max-width: 815px) {
+
+  .page-fiche .table-tarifs,
+  .page-panier .table-tarifs {
+    background: var(--bg-gradient);
+  }
+}
+
+/* ----- Boutons ----- */
+.btn {
+  background-color: #7d9ab9;
+}
+
+.btn:hover {
+  background-color: #a5a2c1;
+}
+
+/* ----- Images ----- */
+.section img,
+.horaires-et-contact .carte-google,
+.horaires-et-contact .carte-google iframe {
+  border: 1px solid #aa8fd8;
+}
+
+/* ----- Images (Fiche produit) ----- */
+.page-fiche .image-principale,
+.page-fiche .miniature {
+  border: 2px solid #a5a2c1;
+}
+
+.page-fiche .miniature.active {
+  border-color: #7d9ab9;
+}
+
+
+
+/* ==============================
+  ABONNEMENT OFFRES
+================================= */
+
+/* ----- Groupes de champs ----- */
+fieldset {
+  border: 1px solid #7d9ab9;
+  background: #D9F5FB;
+}
+
+/* ----- Bloc de chaque formule ----- */
+.formule-abonnement {
+  border: 1px solid #7d9ab9;
+  background: var(--bg-gradient);
+}
+
+/* ----- Affichage du tarif ----- */
+.formule-abonnement .tarif {
+  color: #7d9ab9;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,222 @@
+/* ===============================
+   Styles spécifiques à la page Fiche produit
+=============================== */
+
+.page-fiche .fiche-produit-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+/* ----- COLONNE IMAGE ----- */
+.page-fiche .product-image {
+  flex: 1 1 45%;
+  max-width: 500px;
+}
+
+.page-fiche .galerie-produit {
+  margin-bottom: 1rem;
+}
+
+.page-fiche .image-principale {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+  object-fit: cover;
+}
+
+.page-fiche .miniatures {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.page-fiche .miniature {
+  width: 60px;
+  height: 60px;
+  margin: 0 !important;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: border 0.2s ease;
+}
+
+/* ----- COLONNE DÉTAILS ----- */
+.page-fiche .product-details {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.page-fiche #product-title {
+  font-weight: bold;
+}
+
+.page-fiche #product-id,
+.page-fiche #product-occasion {
+  color: #777;
+}
+
+.page-fiche .product-description {
+  line-height: 1.5;
+  color: #444;
+}
+
+.page-fiche .additional-info {
+  margin-top: 1rem;
+  color: #444;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
+
+.page-fiche .additional-info strong {
+  display: inline-block;
+  width: 120px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* ----- PRIX, NOTE, OPTIONS ----- */
+.page-fiche .product-options {
+  margin: 1rem 0;
+}
+
+.page-fiche label {
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+
+.page-fiche input[type="number"] {
+  padding: 0.3rem 0.5rem;
+  width: 80px;
+}
+
+/* ----- TABLEAU DES TARIFS ----- */
+.page-fiche .table-tarifs {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.page-fiche .table-tarifs th,
+.page-fiche .table-tarifs td {
+  padding: 0.8rem 1rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.page-fiche .table-tarifs td img {
+  max-width: 80px;
+  height: auto;
+  margin: 0 !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.page-fiche .table-tarifs tr:nth-last-child(-n+3) td {
+  color: #444;
+}
+
+.page-fiche .table-tarifs input[type="number"] {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  padding: 0.4em 0.6em;
+  background: white;
+}
+
+#product-price {
+  margin-top: 1rem;
+}
+
+/* Coins arrondis */
+.page-fiche .table-tarifs tr:first-child th:first-child {
+  border-top-left-radius: 8px;
+}
+
+.page-fiche .table-tarifs tr:first-child th:last-child {
+  border-top-right-radius: 8px;
+}
+
+.page-fiche .table-tarifs tr:last-child td:first-child {
+  border-bottom-left-radius: 8px;
+}
+
+.page-fiche .table-tarifs tr:last-child td:last-child {
+  border-bottom-right-radius: 8px;
+}
+
+/* ----- RESPONSIVE ----- */
+@media screen and (max-width: 768px) {
+  .page-fiche .fiche-produit-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page-fiche .product-image,
+  .page-fiche .product-details {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .page-fiche .table-tarifs thead {
+    display: none;
+  }
+
+  .page-fiche .table-tarifs,
+  .page-fiche .table-tarifs tbody,
+  .page-fiche .table-tarifs tr,
+  .page-fiche .table-tarifs td {
+    display: block;
+    width: 100%;
+  }
+
+  .page-fiche .table-tarifs tr {
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    padding: 1em;
+    text-align: left;
+  }
+
+  .page-fiche .emoji-taille {
+    text-align: center;
+    margin-bottom: 0.5em;
+  }
+
+  .page-fiche .table-tarifs td {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.4em 0;
+    position: relative;
+  }
+
+  .page-fiche .table-tarifs td::before {
+    content: attr(data-label);
+    font-weight: 500;
+    flex: 0 0 40%;
+    text-align: right;
+    margin-right: 0.5rem;
+  }
+
+  .page-fiche .table-tarifs td span,
+  .page-fiche .table-tarifs td input {
+    text-align: left;
+  }
+
+  .page-fiche .table-tarifs input[type="number"] {
+    width: 70px;
+  }
+
+  .page-fiche .boutons-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5em;
+  }
+}

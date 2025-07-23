@@ -1,0 +1,235 @@
+/* ===============================
+  Root
+=============================== */
+
+:root {
+  /* === Couleurs === */
+  --vert-sauge-fonce: #678f57;
+  --vert-sauge-clair: #c4cc8a;
+  --vert-fond: #dfe6b1;
+  --vert-bouton: #7e9e63;
+  --jaune-dore: #e7b96b;
+  --vert-gris: #acbd7c;
+  --gris-fonce: #444444;
+  --blanc: #ffffff;
+
+  /* === Dégradé de fond partagé === */
+  --bg-gradient: linear-gradient(to right top,
+      #ed7d4b, #ec9351, #e9a75c, #e7b96b, #e5cb7f,
+      #d9cc82, #cecc86, #c4cc8a, #acbd7c, #95ad6f,
+      #7e9e63, #678f57);
+
+  /* === Effets === */
+  --ombre-texte: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  --ombre-boite: 0 4px 12px rgba(0, 0, 0, 0.5);
+
+  /* === Tailles === */
+  --taille-logo: 40px;
+  --taille-logo-max: 90px;
+  --taille-burger: 1.6rem;
+  --taille-icones: 1.2em;
+  --taille-logo-texte-grand: 1.8em;
+  --taille-logo-texte-petit: 1.4em;
+  --taille-saison-select: 0.9em;
+  --taille-saison-select-small: 0.85em;
+  --taille-compteur: 0.9em;
+
+  /* === Marges / Gaps === */
+  --gap-principal: 0.6em;
+  --gap-petit: 0.3em;
+  --gap-mini: 0.2em;
+  --marge-haut-ligne: 0.2em;
+  --marge-haut-ligne-small: 0.3em;
+
+  /* === Layout navbar === */
+  --navbar-padding: 0.6em 1em;
+  --navbar-hauteur: 3.75rem;
+  --navbar-hauteur-small: 3rem;
+
+  /* === Largeur menu latéral === */
+  --side-menu-large: 275px;
+
+  /* === Rayon bordures === */
+  --rayon-select: 4px;
+  --rayon-hover-menu: 8px;
+  --rayon-compteur: 50%;
+
+  /* === Durées === */
+  --duree-animation: 0.3s;
+  --duree-fleur: 5s;
+}
+
+/* ===============================
+  Header
+=============================== */
+
+/* ----- Navbar + Menu Latéral ----- */
+.shared-bg {
+  background-image: var(--bg-gradient);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100vw 100vh;
+  background-position: top left;
+}
+
+.selecteur-saison select option {
+  background-color: #dfe6b1;
+  /* ou toute autre couleur adaptée */
+  color: #777;
+}
+
+/* ===============================
+  Fleurs animées
+=============================== */
+
+.sunflower-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1001;
+  overflow: hidden;
+}
+
+.sunflower {
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  opacity: 0;
+  animation: floatSunflower 5s linear forwards;
+}
+
+@keyframes floatSunflower {
+  0% {
+    transform: translateX(-50px) translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateX(50vw) translateY(50vh) rotate(180deg);
+    opacity: 0.6;
+  }
+
+  100% {
+    transform: translateX(100vw) translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+/* ===============================
+  Couleurs Thème
+=============================== */
+
+/* ----- Général ----- */
+body {
+  background-color: #dfe6b1;
+}
+
+.section-color {
+  background: var(--bg-gradient);
+  border: 1px solid #678f57;
+  ;
+}
+
+/* Titres */
+h1 {
+  color: #678f57;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+h3 {
+  color: #e7b96b;
+}
+
+h4 {
+  color: #acbd7c;
+}
+
+h5 {
+  color: #444444;
+}
+
+h6 {
+  color: #ffffff;
+}
+
+/* ----- Tableau ----- */
+.table-tarifs {
+  border: 1px solid #678f57;
+}
+
+.table-tarifs thead {
+  background: var(--bg-gradient);
+}
+
+.table-tarifs tbody tr {
+  background-color: #c4cc8a;
+}
+
+.table-tarifs th,
+.table-tarifs td {
+  border: 1px solid #678f57;
+}
+
+/* ----- Responsive ----- */
+@media screen and (max-width: 815px) {
+
+  .page-fiche .table-tarifs,
+  .page-panier .table-tarifs {
+    background: var(--bg-gradient);
+  }
+}
+
+/* ----- Boutons ----- */
+.btn {
+  background-color: #7e9e63;
+}
+
+.btn:hover {
+  background-color: #e7b96b;
+}
+
+/* ----- Images ----- */
+.section img,
+.horaires-et-contact .carte-google,
+.horaires-et-contact .carte-google iframe {
+  border: 1px solid #678f57;
+}
+
+/* ----- Images (Fiche produit) ----- */
+.page-fiche .image-principale,
+.page-fiche .miniature {
+  border: 2px solid #c4cc8a;
+}
+
+.page-fiche .miniature.active {
+  border-color: #678f57;
+}
+
+/* ==============================
+  ABONNEMENT OFFRES
+================================= */
+
+/* ----- Groupes de champs ----- */
+fieldset {
+  border: 1px solid #678f57;
+  background: #dfe6b1;
+}
+
+/* ----- Bloc de chaque formule ----- */
+.formule-abonnement {
+  border: 1px solid #678f57;
+  background: var(--bg-gradient);
+}
+
+/* ----- Affichage du tarif ----- */
+.formule-abonnement .tarif {
+  color: #678f57;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}

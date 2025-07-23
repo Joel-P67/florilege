@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="16x16" href="menu-img/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="menu-img/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="48x48" href="menu-img/favicon-48x48.png" />
+  <link rel="icon" type="image/png" sizes="64x64" href="menu-img/favicon-64x64.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="menu-img/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="128x128" href="menu-img/favicon-128x128.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="menu-img/favicon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="256x256" href="menu-img/favicon-256x256.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="menu-img/favicon-512x512.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="menu-img/apple-touch-icon.png" />
+
+  <!-- Police -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <title>Florilège - Panier Paiement</title>
+
+  <!-- Feuilles de style principales -->
+  <link rel="stylesheet" href="style/header.css" />
+  <link rel="stylesheet" href="style/base.css" />
+
+  <!-- Thème saisonnier (CSS + JS) -->
+  <script src="script/saisons.js"></script>
+  <script>
+    function getSeason(date = new Date()) {
+      const month = date.getMonth();
+      switch (month) {
+        case 2:
+        case 3:
+        case 4:
+          return 'printemps';
+        case 5:
+        case 6:
+        case 7:
+          return 'ete';
+        case 8:
+        case 9:
+        case 10:
+          return 'automne';
+        default:
+          return 'hiver';
+      }
+    }
+
+    function chargerTheme(theme) {
+      // Supprimer anciennes feuilles de style thème
+      const anciensThemes = ['printemps', 'ete', 'automne', 'hiver'];
+      anciensThemes.forEach(t => {
+        const lien = document.getElementById(`theme-${t}`);
+        if (lien) lien.remove();
+        const scriptOld = document.getElementById(`script-${t}`);
+        if (scriptOld) scriptOld.remove();
+      });
+
+      // Ajouter la feuille CSS du thème
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = `style/${theme}.css`;
+      link.id = `theme-${theme}`;
+      document.head.appendChild(link);
+
+      // Ajouter le script JS du thème (après DOMContentLoaded)
+      window.addEventListener('DOMContentLoaded', () => {
+        const script = document.createElement('script');
+        script.src = `script/${theme}.js`;
+        script.id = `script-${theme}`;
+        document.body.appendChild(script);
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const themeStocke = localStorage.getItem('theme-saison');
+      const themeInitial = themeStocke || getSeason();
+      chargerTheme(themeInitial);
+
+      // Si tu as un select dans la navbar avec id 'select-theme'
+      const selectTheme = document.getElementById('select-theme');
+      if (selectTheme) {
+        selectTheme.value = themeInitial;
+        selectTheme.addEventListener('change', (e) => {
+          const nouveauTheme = e.target.value;
+          localStorage.setItem('theme-saison', nouveauTheme);
+          chargerTheme(nouveauTheme);
+        });
+      }
+    });
+  </script>
+</head>
+
+<body class="panier-paiement>
+  <noscript>
+    <style>
+      .no-js-message {
+        background-color: #ffd2d2;
+        color: #990000;
+        text-align: center;
+        padding: 1em;
+        font-weight: bold;
+        font-family: sans-serif;
+      }
+    </style>
+    <p class=" no-js-message">⚠️ JavaScript est désactivé. Activez-le pour voir les produits et utiliser le site.</p>
+  </noscript>
+
+  <!-- Navbar -->
+  <header class="navbar shared-bg">
+    <div class="zone-gauche">
+      <button id="burger" class="burger" aria-label="Menu de navigation">&#9776;</button>
+    </div>
+
+    <div class="zone-droite">
+      <div class="ligne-haut">
+        <a href="index.html" class="logo-image">
+          <img src="menu-img/logo.png" alt="Logo Florilège" />
+        </a>
+        <a href="index.html" class="logo-texte">Florilège</a>
+      </div>
+      <div class="ligne-bas">
+        <div class="selecteur-saison">
+          <label for="select-theme">Saison :</label>
+          <select id="select-theme" aria-label="Choisir le thème saisonnier">
+            <option value="printemps">Printemps</option>
+            <option value="ete">Été</option>
+            <option value="automne">Automne</option>
+            <option value="hiver">Hiver</option>
+          </select>
+        </div>
+        <a href="menu/connexion-inscription.html" class="icone-compte" title="Connexion / Inscription">👤</a>
+        <a href="panier.html" class="icone-panier" title="Panier">🛒</a>
+        <span id="compteur-panier">0</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Menu Latéral -->
+  <nav id="side-menu" class="side-menu hidden shared-bg">
+    <a href="index.html" class="logo-lien">
+      <img src="menu-img/logo.png" alt="Logo Florilège" class="logo-menu" />
+    </a>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="menu/a-propos.html">À propos</a></li>
+      <li><a href="menu/abonnement.html">Abonnement</a></li>
+      <li><a href="menu/horaires-et-contact.html">Horaires & Contact</a></li>
+      <li><a href="menu/livre-d-or.html">Livre d’Or</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenu principal -->
+  <main role="main" class="section section-hidden">
+
+    <!-- Titre principal -->
+    <section class="section section-hidden">
+      <h1>Bienvenue chez votre fleuriste en ligne !</h1>
+    </section>
+
+    <!-- Récapitulatif de la formule -->
+    <section id="recapitulatif" class="section section-color box-panier">
+      <h2>Finalisation de la commande</h2>
+
+      <h4>📝 Récapitulatif de votre Panier</h4>
+      <div id="tableau-panier"></div>
+    </section>
+
+    <!-- Formulaire de paiement -->
+    <section class="section section-color box-paiement">
+      <h4>💳 Informations de paiement</h4>
+      <form id="formulaire-paiement">
+        <label for="nom">Nom du titulaire
+          <input type="text" id="nom" name="nom" required />
+        </label>
+
+        <label for="carte">Numéro de carte
+          <input type="text" id="carte" name="carte" placeholder="XXXX XXXX XXXX XXXX" pattern="(\d{4} ?){3}\d{4}"
+            required />
+        </label>
+
+        <label for="expiration">Date d’expiration
+          <input type="month" id="expiration" name="expiration" required />
+        </label>
+
+        <label for="cvv">Code de sécurité (CVV)
+          <input type="text" id="cvv" name="cvv" pattern="\d{3}" required />
+        </label>
+
+        <div class="boutons-actions">
+          <button type="submit" class="btn">Valider le paiement</button>
+        </div>
+      </form>
+    </section>
+
+    <div id="confirmation" class="confirmation-message hidden">
+      ✅ Merci pour votre commande ! Vous recevrez un e-mail de confirmation sous peu. 🌸
+    </div>
+  </main>
+
+  <!-- Éléments animés -->
+  <div class="petal-container"></div>
+  <div class="sunflower-container"></div>
+  <div class="oak-leaf-container"></div>
+  <div class="flake-container"></div>
+
+  <!-- Scripts Panier Navbar -->
+  <script src="script/panier-navbar.js"></script>
+  <!-- Message Alerte (popup) -->
+  <script src="script/popup.js"></script>
+  <!-- Scripts Panier paiement (back end)-->
+  <script src="script/abonnement-backend-simule.js"></script>
+  <!-- Scripts Panier paiement -->
+  <script src="script/panier-paiement.js"></script>
+</body>
+
+</html>

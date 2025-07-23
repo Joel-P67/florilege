@@ -1,0 +1,243 @@
+[
+  {
+    "id": "centre-de-table-fleurs-fraiches-printemps-001",
+    "categorie": "fleurs_fraiches",
+    "type": "centres_de_table",
+    "type_affichée": "Centre de table",
+    "nom": "Centre de table Floraline",
+    "description": "Des centres de table élégants aux teintes vives pour les repas printaniers.",
+    "description_simple": "centre table fleurs du printemps, jonquilles, tulipes et verveines.",
+    "composition": ["jonquilles", "tulipes", "verveines"],
+    "couleur": ["jaune", "rose"],
+    "saison": "printemps",
+    "occasion": ["felicitations", "naissance", "anniversaire"],
+    "taille_disponible": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 31.90,
+      "moyen": 44.90,
+      "grand": 59.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-001-01.webp",
+      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-001-02.webp",
+      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-001-03.webp"
+    ]
+  },
+  {
+    "id": "centre-de-table-fleurs-fraiches-printemps-002",
+    "categorie": "fleurs_fraiches",
+    "type": "centres_de_table",
+    "type_affichée": "Centre de table",
+    "nom": "Centre de table Jardin Secret",
+    "description": "Des centres de table délicats composés de fleurs de jardin printanières.",
+    "description_simple": "centre table fleurs jardin, pivoines, anémones et muscaris.",
+    "composition": ["pivoines", "anémones", "muscari"],
+    "couleur": ["rose", "bleu", "blanc"],
+    "saison": "printemps",
+    "occasion": ["amour", "remerciements", "idees_cadeau"],
+    "taille_disponible": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 31.90,
+      "moyen": 44.90,
+      "grand": 59.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-002-01.webp",
+      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-002-02.webp",
+      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-002-03.webp"
+    ]
+  },
+  {
+    "id": "centre-de-table-fleurs-fraiches-printemps-003",
+    "categorie": "fleurs_fraiches",
+    "type": "centres_de_table",
+    "type_affichée": "Centre de table",
+    "nom": "Centre de table Prairie Matinale",
+    "description": "Des centres de table légers et frais comme la rosée du matin au printemps.",
+    "description_simple": "centre table fleurs légères, freesias, marguerites et gypsophiles.",
+    "composition": ["freesias", "marguerites", "gypsophiles"],
+    "couleur": ["blanc", "jaune"],
+    "saison": "printemps",
+    "occasion": ["anniversaire", "naissance", "remerciements"],
+    "taille_disponible": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 31.90,
+      "moyen": 44.90,
+      "grand": 59.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-003-01.webp",
+      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-003-02.webp",
+      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-003-03.webp"
+    ]
+  },
+  {
+    "id": "centre-de-table-fleurs-fraiches-printemps-004",
+    "categorie": "fleurs_fraiches",
+    "type": "centres_de_table",
+    "type_affichée": "Centre de table",
+    "nom": "Centre de table Rêve de Saison",
+    "description": "Des compositions centrales festives aux parfums printaniers.",
+    "description_simple": "centre table fleurs saison, lilas, tulipes et feuillages printaniers.",
+    "composition": ["lilas", "tulipes", "feuillages printaniers"],
+    "couleur": ["violet", "rose"],
+    "saison": "printemps",
+    "occasion": ["mariage", "felicitations", "idees_cadeau"],
+    "taille_disponible": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 31.90,
+      "moyen": 44.90,
+      "grand": 59.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-004-01.webp",
+      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-004-02.webp",
+      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-004-03.webp"
+    ]
+  },
+  {
+    "id": "centre-de-table-fleurs-fraiches-printemps-005",
+    "categorie": "fleurs_fraiches",
+    "type": "centres_de_table",
+    "type_affichée": "Centre de table",
+    "nom": "Centre de table Fleur d’Aube",
+    "description": "Des centres de table frais évoquant l’aube d’un nouveau printemps.",
+    "description_simple": "centre table fleurs fraîches, narcisses, jonquilles et muguet.",
+    "composition": ["narcisses", "jonquilles", "muguet"],
+    "couleur": ["blanc", "jaune"],
+    "saison": "printemps",
+    "occasion": ["naissance", "remerciements", "anniversaire"],
+    "taille_disponible": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 31.90,
+      "moyen": 44.90,
+      "grand": 59.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-005-01.webp",
+      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-005-02.webp",
+      "../fleurs-fraiches-img/centre-de-table-fleurs-fraiches-printemps-005-03.webp"
+    ]
+  },
+  {
+    "id": "couronne-fleurs-fraiches-printemps-01",
+    "categorie": "fleurs_fraiches",
+    "type": "couronnes",
+    "type_affichée": "Couronne",
+    "nom": "Couronne Éveil Floral",
+    "description": "Une couronne fraîche et aérienne inspirée par les premières fleurs du printemps.",
+    "description_simple": "couronne fleurs du printemps, fleurs de cerisier, anémones et feuilles d’eucalyptus.",
+    "composition": ["fleurs de cerisier", "anémones", "feuilles d’eucalyptus"],
+    "couleur": ["rose", "blanc"], 
+    "saison": "printemps",
+    "occasion": ["felicitations", "naissance", "idees_cadeau"],
+    "taille_disponible": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 28.90,
+      "moyen": 41.90,
+      "grand": 55.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-001-01.webp",
+      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-001-02.webp",
+      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-001-03.webp"
+    ]
+  },
+  {
+    "id": "couronne-fleurs-fraiches-printemps-02",
+    "categorie": "fleurs_fraiches",
+    "type": "couronnes",
+    "type_affichée": "Couronne",
+    "nom": "Couronne Champêtre",
+    "description": "Un style bohème pour cette couronne ornée de fleurs sauvages printanières.",
+    "description_simple": "couronne fleurs sauvages du printemps, marguerites, lavandes et herbes folles.",
+    "composition": ["marguerites", "lavandes", "herbes folles"],
+    "couleur": ["jaune", "blanc", "violet"],
+    "saison": "printemps",
+    "occasion": ["mariage", "remerciements", "idees_cadeau"],
+    "taille_disponible": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 28.90,
+      "moyen": 41.90,
+      "grand": 55.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-002-01.webp",
+      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-002-02.webp",
+      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-002-03.webp"
+    ]
+  },
+  {
+    "id": "couronne-fleurs-fraiches-printemps-03",
+    "categorie": "fleurs_fraiches",
+    "type": "couronnes",
+    "type_affichée": "Couronne",
+    "nom": "Couronne Renaissance",
+    "description": "Des couronnes symbolisant le renouveau avec des fleurs qui célèbrent la saison.",
+    "description_simple": "couronne fleurs de printemps, tulipes, renoncules et gypsophiles.",
+    "composition": ["tulipes", "renoncules", "gypsophiles"],
+    "couleur": ["orange", "rose", "blanc"],
+    "saison": "printemps",
+    "occasion": ["anniversaire", "amour", "felicitations"],
+    "taille_disponible": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 28.90,
+      "moyen": 41.90,
+      "grand": 55.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-003-01.webp",
+      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-003-02.webp",
+      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-003-03.webp"
+    ]
+  },
+  {
+    "id": "couronne-fleurs-fraiches-printemps-04",
+    "categorie": "fleurs_fraiches",
+    "type": "couronnes",
+    "type_affichée": "Couronne",
+    "nom": "Couronne Bucolique",
+    "description": "Des couronnes fines et élégantes évoquant les jardins printaniers.",
+    "description_simple": "couronne fleurs printanières, narcisses, myosotis et lierre.",
+    "composition": ["narcisses", "myosotis", "lierre"],
+    "couleur": ["jaune", "bleu"],
+    "saison": "printemps",
+    "occasion": ["naissance", "idees_cadeau", "felicitations"],
+    "taille_disponible": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 28.90,
+      "moyen": 41.90,
+      "grand": 55.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-004-01.webp",
+      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-004-02.webp",
+      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-004-03.webp"
+    ]
+  },
+  {
+    "id": "couronne-fleurs-fraiches-printemps-05",
+    "categorie": "fleurs_fraiches",
+    "type": "couronnes",
+    "type_affichée": "Couronne",
+    "nom": "Couronne Pastel",
+    "description": "Des couronnes douces et lumineuses aux couleurs pastel pour illuminer le printemps.",
+    "description_simple": "couronne fleurs pastel, pivoines, hortensias et fougères.",
+    "composition": ["pivoines", "hortensias", "fougères"],
+    "couleur": ["rose", "bleu"],
+    "saison": "printemps",
+    "occasion": ["mariage", "remerciements", "idees_cadeau"],
+    "taille_disponible": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 28.90,
+      "moyen": 41.90,
+      "grand": 55.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-005-01.webp",
+      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-005-02.webp",
+      "../fleurs-fraiches-img/couronne-fleurs-fraiches-printemps-005-03.webp"
+    ]
+  }
+]
+

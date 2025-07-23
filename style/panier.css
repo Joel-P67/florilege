@@ -1,0 +1,154 @@
+/* ===============================
+   Styles spécifiques à la page panier
+=============================== */
+
+/* Conteneur principal */
+.page-panier #panier-contenu {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2em 1em;
+}
+
+/* ----- Tableau des tarifs ----- */
+.page-panier .table-tarifs {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.page-panier .table-tarifs th,
+.page-panier .table-tarifs td {
+  padding: 0.8rem 1rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Coins arrondis */
+.page-panier .table-tarifs tr:first-child th:first-child {
+  border-top-left-radius: 8px
+}
+
+.page-panier .table-tarifs tr:first-child th:last-child {
+  border-top-right-radius: 8px;
+}
+
+.page-panier .table-tarifs tr:last-child td:first-child {
+  border-bottom-left-radius: 8px;
+}
+
+.page-panier .table-tarifs tr:last-child td:last-child {
+  border-bottom-right-radius: 8px;
+}
+
+.page-panier .table-tarifs tr:last-child td,
+.page-panier .table-tarifs tr:nth-last-child(2) td,
+.page-panier .table-tarifs tr:nth-last-child(3) td {
+  font-weight: bold;
+  color: var(--gris-foncé, #444);
+}
+
+.page-panier .table-tarifs td img {
+  max-width: 80px;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 !important;
+  box-shadow: none !important;
+}
+
+.table-tarifs td button.supprimer-article {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: none;
+  border: none;
+  cursor: pointer;
+}
+
+.page-panier .table-tarifs input[type="number"] {
+  width: 60px;
+  padding: 0.4rem;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid var(--gris-clair, #ccc);
+}
+
+/* ----- Mode de livraison ----- */
+.page-panier #livraison-mode {
+  margin-top: 0.5em;
+  padding: 0.5em;
+  color: var(--texte-foncé, #333);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.page-panier #livraison-mode:focus {
+  outline: none;
+  box-shadow: var(--ombre-portee);
+}
+
+/* Selecteur du Mode de Livraison */
+.page-panier #livraison-mode {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.4em 0.6em;
+  background: white;
+  transition: box-shadow 0.2s ease;
+}
+
+/* ----- Responsive ----- */
+@media screen and (max-width: 768px) {
+  .page-panier .fiche-produit-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page-panier .product-image,
+  .page-panier .product-details {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .page-panier .table-tarifs thead {
+    display: none;
+  }
+
+  .page-panier .table-tarifs,
+  .page-panier .table-tarifs tbody,
+  .page-panier .table-tarifs tr,
+  .page-panier .table-tarifs td {
+    display: block;
+    width: 100%;
+  }
+
+  .page-panier .table-tarifs tr {
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    padding: 1em;
+    box-shadow: var(--ombre-portee);
+  }
+
+  .page-panier .table-tarifs td {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.4em 0;
+    position: relative;
+    vertical-align: middle;
+  }
+
+  .page-panier .table-tarifs td::before {
+    content: attr(data-label);
+    font-weight: 500;
+    flex: 0 0 40%;
+    text-align: right;
+    margin-right: 0.5rem;
+  }
+
+  .page-panier .table-tarifs input[type="number"] {
+    width: 70px;
+  }
+}

@@ -1,0 +1,291 @@
+[
+  {
+    "id": "bouquets-fleurs-fraiches-printemps-001",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Douceur de Printemps",
+    "description": "Un bouquet frais et léger avec des tulipes, jonquilles et muguet, parfait pour célébrer le renouveau.",
+    "description_simple": "bouquet tulipes jonquilles muguet",
+    "composition": ["tulipes", "jonquilles", "muguets"],
+    "couleur": ["jaune"],
+    "saison": "printemps",
+    "occasions": ["naissance", "anniversaire", "idees_cadeau"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 25.90,
+      "17 fleurs": 35.90,
+      "27 fleurs": 45.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-001-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-001-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-001-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-printemps-002",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Éveil Floral",
+    "description": "Un mélange vibrant de jonquilles, pivoines et lilas, pour une explosion de couleurs printanières.",
+    "description_simple": "bouquet jonquilles pivoines lilas",
+    "composition": ["jonquilles", "pivoines", "lilas"],
+    "couleur": ["jaune", "rose"],
+    "saison": "printemps",
+    "occasions": ["felicitations", "mariage", "anniversaire"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 26.90,
+      "17 fleurs": 37.90,
+      "27 fleurs": 48.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-002-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-002-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-002-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-printemps-003",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Jardin Secret",
+    "description": "Un bouquet élégant composé de pivoines roses, roses blanches et eucalyptus.",
+    "description_simple": "bouquet pivoines roses roses blanches eucalyptus",
+    "composition": ["pivoines roses", "roses blanches", "eucalyptus"],
+    "couleur": ["rose", "blanc"],
+    "saison": "printemps",
+    "occasions": ["amour", "mariage", "anniversaire"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 28.90,
+      "17 fleurs": 39.90,
+      "27 fleurs": 50.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-003-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-003-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-003-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-printemps-004",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Rayon de Soleil",
+    "description": "Un bouquet joyeux mêlant tournesols, marguerites et fleurs des champs colorées.",
+    "description_simple": "bouquet tournesols marguerites fleurs des champs",
+    "composition": ["tournesols", "marguerites", "fleurs des champs"],
+    "couleur": ["jaune"],
+    "saison": "printemps",
+    "occasions": ["anniversaire", "idees_cadeau", "felicitations"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 24.90,
+      "17 fleurs": 34.90,
+      "27 fleurs": 44.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-004-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-004-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-004-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-printemps-005",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Promesse d’Amour",
+    "description": "Un bouquet romantique de roses rouges et blanches avec du gypsophile.",
+    "description_simple": "bouquet roses rouges blanches gypsophile",
+    "composition": ["roses rouges", "roses blanches", "gypsophiles"],
+    "couleur": ["rouge", "blanc"],
+    "saison": "printemps",
+    "occasions": ["amour", "mariage", "anniversaire"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 30.90,
+      "17 fleurs": 42.90,
+      "27 fleurs": 55.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-005-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-005-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-005-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-printemps-006",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Fleurs de Cerisier",
+    "description": "Un bouquet délicat mêlant cerisiers en fleurs, lilas et freesias.",
+    "description_simple": "bouquet cerisiers lilas freesias",
+    "composition": ["fleurs de cerisier", "lilas", "freesias"],
+    "couleur": ["rose", "violet", "blanc"],
+    "saison": "printemps",
+    "occasions": ["naissance", "felicitations", "idees_cadeau"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 27.50,
+      "17 fleurs": 38.50,
+      "27 fleurs": 49.50
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-006-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-006-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-006-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-printemps-007",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Rêve Pastel",
+    "description": "Un doux mélange de pivoines, roses et lisianthus dans des tons pastel.",
+    "description_simple": "bouquet pivoines roses lisianthus pastel",
+    "composition": ["pivoines", "roses", "lisianthus"],
+    "couleur": ["rose", "blanc"],
+    "saison": "printemps",
+    "occasions": ["mariage", "amour", "anniversaire"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 29.00,
+      "17 fleurs": 40.00,
+      "27 fleurs": 51.00
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-007-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-007-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-007-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-printemps-008",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Brise Matinale",
+    "description": "Un bouquet frais composé d’iris, muguet et anémones blanches.",
+    "description_simple": "bouquet iris muguet anémones blanches",
+    "composition": ["iris", "muguets", "anémones blanches"],
+    "couleur": ["blanc", "violet"],
+    "saison": "printemps",
+    "occasions": ["felicitations", "naissance", "idees_cadeau"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 26.50,
+      "17 fleurs": 37.50,
+      "27 fleurs": 48.50
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-008-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-008-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-008-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-printemps-009",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Éclat de Lilas",
+    "description": "Un bouquet parfumé de lilas violets, lilas blancs et feuilles d’eucalyptus.",
+    "description_simple": "bouquet lilas violet lilas blanc eucalyptus",
+    "composition": ["lilas violets", "lilas blancs", "eucalyptus"],
+    "couleur": ["violet", "blanc"],
+    "saison": "printemps",
+    "occasions": ["amour", "mariage", "anniversaire"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 27.90,
+      "17 fleurs": 38.90,
+      "27 fleurs": 49.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-009-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-009-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-009-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-printemps-010",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Chant des Oiseaux",
+    "description": "Un bouquet gai avec des tulipes jaunes, freesias et fleurs sauvages colorées.",
+    "description_simple": "bouquet tulipes jaunes freesias fleurs sauvages",
+    "composition": ["tulipes jaunes", "freesias", "fleurs sauvages"],
+    "couleur": ["jaune"],
+    "saison": "printemps",
+    "occasions": ["anniversaire", "idees_cadeau", "felicitations"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 25.50,
+      "17 fleurs": 36.50,
+      "27 fleurs": 47.50
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-010-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-010-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-010-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-printemps-011",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Féérie Rose",
+    "description": "Un mélange délicat de roses, pivoines et hortensias pour une touche romantique.",
+    "description_simple": "bouquet roses pivoines hortensias",
+    "composition": ["roses", "pivoines", "hortensias"],
+    "couleur": ["rose", "blanc"],
+    "saison": "printemps",
+    "occasions": ["mariage", "anniversaire", "amour"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 31.50,
+      "17 fleurs": 43.50,
+      "27 fleurs": 56.50
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-011-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-011-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-011-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-printemps-012",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Palette Pastel",
+    "description": "Un assortiment doux de lisianthus, renoncules et roses blanches aux teintes pastel.",
+    "description_simple": "bouquet lisianthus renoncules roses blanches",
+    "composition": ["lisianthus", "renoncules", "roses blanches"],
+    "couleur": ["rose", "blanc"],
+    "saison": "printemps",
+    "occasions": ["mariage", "amour", "anniversaire"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 30.00,
+      "17 fleurs": 41.00,
+      "27 fleurs": 52.00
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-012-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-012-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-printemps-012-03.webp"
+    ]
+  }
+]
+

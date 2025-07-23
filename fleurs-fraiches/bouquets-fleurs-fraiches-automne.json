@@ -1,0 +1,266 @@
+[
+  {
+    "id": "bouquets-fleurs-fraiches-automne-001",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Brise Marine",
+    "description": "Un bouquet frais avec des hortensias bleus et des delphiniums, rappelant la douceur de l’océan.",
+    "description_simple": "bouquet hortensias bleus delphiniums",
+    "composition": ["hortensias bleus", "delphiniums"],
+    "couleur": ["bleu"],
+    "saison": "automne",
+    "occasion": ["remerciements", "anniversaire", "idees_cadeau"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 27.9,
+      "17 fleurs": 39.9,
+      "27 fleurs": 52.9
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-001-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-001-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-001-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-automne-002",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Caresse d’Orchidées",
+    "description": "Un bouquet élégant d’orchidées blanches et roses, parfait pour une ambiance raffinée et exotique.",
+    "description_simple": "bouquet orchidées blanches roses",
+    "composition": ["orchidées blanches", "orchidées roses"],
+    "couleur": ["blanc", "rose"],
+    "saison": "automne",
+    "occasion": ["amour", "mariage", "anniversaire"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 27.9,
+      "17 fleurs": 39.9,
+      "27 fleurs": 52.9
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-002-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-002-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-002-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-automne-003",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Éclats d’Automne",
+    "description": "Un bouquet chaleureux mêlant dahlias, chrysanthèmes orangés et feuillages rouges, pour célébrer la beauté flamboyante de l’automne.",
+    "description_simple": "bouquet dahlias chrysanthèmes orangés feuillages rouges",
+    "composition": ["dahlias oranges", "chrysanthèmes", "feuillages rouges"],
+    "couleur": ["orange", "rouge", "jaune"],
+    "saison": "automne",
+    "occasion": ["anniversaire", "idees_cadeau", "remerciements"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 27.9,
+      "17 fleurs": 39.9,
+      "27 fleurs": 52.9
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-003-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-003-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-003-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-automne-004",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Cascade d’Or",
+    "description": "Un bouquet lumineux d’œillets jaunes et de mimosa doré, qui illumine les journées d’automne.",
+    "description_simple": "bouquet œillets jaunes mimosa",
+    "composition": ["œillets jaunes", "mimosas"],
+    "couleur": ["jaune"],
+    "saison": "automne",
+    "occasion": ["naissance", "felicitations", "remerciements"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 27.9,
+      "17 fleurs": 39.9,
+      "27 fleurs": 52.9
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-004-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-004-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-004-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-automne-005",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Mystère Indigo",
+    "description": "Un bouquet raffiné d’iris indigo, anémones noires et feuillage argenté pour un effet mystérieux et chic.",
+    "description_simple": "bouquet iris indigo anémone noire feuillage argenté",
+    "composition": ["iris indigo", "anémones noires", "feuillage argenté"],
+    "couleur": ["bleu", "noir", "argent"],
+    "saison": "automne",
+    "occasion": ["felicitations", "remerciements", "idees_cadeau"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 27.9,
+      "17 fleurs": 39.9,
+      "27 fleurs": 52.9
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-005-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-005-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-005-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-automne-006",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Chaleur d’Automne",
+    "description": "Un assortiment chaleureux d’asters, chrysanthèmes et feuillages orangés, parfait pour la saison dorée.",
+    "description_simple": "bouquet asters chrysanthèmes feuillage orange",
+    "composition": ["asters", "chrysanthèmes", "feuillage orange"],
+    "couleur": ["orange", "jaune"],
+    "saison": "automne",
+    "occasion": ["anniversaire", "felicitations", "noel"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 27.9,
+      "17 fleurs": 39.9,
+      "27 fleurs": 52.9
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-006-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-006-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-006-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-automne-007",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Reflet d’Azur",
+    "description": "Un bouquet frais d’hortensias bleus, delphiniums et gypsophiles, rappelant un ciel d’été limpide.",
+    "description_simple": "bouquet hortensias bleus delphinium gypsophile",
+    "composition": ["hortensias bleus", "delphiniums", "gypsophiles"],
+    "couleur": ["bleu"],
+    "saison": "automne",
+    "occasion": ["mariage", "remerciements", "idees_cadeau"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 27.9,
+      "17 fleurs": 39.9,
+      "27 fleurs": 52.9
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-007-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-007-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-007-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-automne-008",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Éveil du Matin",
+    "description": "Un bouquet énergique avec des marguerites blanches et jaunes, des tulipes et un feuillage frais pour bien commencer la journée.",
+    "description_simple": "bouquet marguerites blanches jaunes tulipes feuillage",
+    "composition": ["marguerites blanches", "marguerites jaunes", "tulipes", "feuillage"],
+    "couleur": ["blanc", "jaune"],
+    "saison": "automne",
+    "occasion": ["naissance", "anniversaire", "felicitations"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 27.9,
+      "17 fleurs": 39.9,
+      "27 fleurs": 52.9
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-008-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-008-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-008-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-automne-009",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Élégance Sauvage",
+    "description": "Un mélange naturel d’asters violets, chardons et feuillages sauvages, pour un style bohème chic.",
+    "description_simple": "bouquet asters violets chardons feuillages sauvages",
+    "composition": ["asters violets", "chardons", "feuillages sauvages"],
+    "couleur": ["multicolores"],
+    "saison": "automne",
+    "occasion": ["naissance", "idees_cadeau", "anniversaire"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 27.9,
+      "17 fleurs": 39.9,
+      "27 fleurs": 52.9
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-009-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-009-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-009-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-automne-010",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Forêt Enchantée",
+    "description": "Un bouquet sauvage de chardons bleus, eucalyptus et herbes folles, pour une balade au cœur de la forêt magique.",
+    "description_simple": "bouquet chardons bleus eucalyptus herbes folles",
+    "composition": ["chardons bleus", "eucalyptus", "herbes folles"],
+    "couleur": ["bleu"],
+    "saison": "automne",
+    "occasion": ["idees_cadeau", "anniversaire", "remerciements"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 27.9,
+      "17 fleurs": 39.9,
+      "27 fleurs": 52.9
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-010-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-010-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-010-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-automne-011",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Coucher de Soleil",
+    "description": "Un bouquet vibrant mêlant roses orange, tournesols et feuillages d’automne, pour capturer la chaleur d’un soir d’été.",
+    "description_simple": "bouquet roses orange tournesols feuillages d’automne",
+    "composition": ["roses orange", "tournesols", "feuillages d’automne"],
+    "couleur": ["orange", "jaune"],
+    "saison": "automne",
+    "occasion": ["anniversaire", "felicitations", "noel"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 27.9,
+      "17 fleurs": 39.9,
+      "27 fleurs": 52.9
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-011-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-011-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-automne-011-03.webp"
+    ]
+  }
+]

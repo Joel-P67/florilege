@@ -1,0 +1,63 @@
+/* ==============================
+  ABONNEMENT OFFRES
+================================= */
+
+/* ----- Groupes de champs ----- */
+fieldset {
+  margin-bottom: 2rem;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* ----- Conteneur des formules ----- */
+.formules-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* ----- Bloc de chaque formule ----- */
+.formule-abonnement {
+  width: 30%;
+  min-width: 250px;
+  max-width: 300px;
+  border-radius: 8px;
+  padding: 1rem;
+  flex: 0 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease;
+}
+
+.formule-abonnement:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+/* ----- Label radio + texte ----- */
+.formule-abonnement label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+
+/* ----- Affichage du tarif ----- */
+.formule-abonnement .tarif {
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+/* ----- Responsive ----- */
+@media (max-width: 768px) {
+  .formules-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .formule-abonnement {
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,292 @@
+[
+  {
+    "id": "bouquets-fleurs-fraiches-ete-001",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Soleil d’Or",
+    "description": "Un bouquet lumineux de tournesols et de marguerites pour égayer vos journées d'été.",
+    "description_simple": "bouquet tournesols marguerites",
+    "composition": ["tournesols", "marguerites"],
+    "couleur": ["jaune"],
+    "saison": "été",
+    "occasion": ["anniversaire", "idees_cadeau", "felicitations"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 27.90,
+      "17 fleurs": 39.90,
+      "27 fleurs": 52.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-001-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-001-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-001-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-ete-002",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Brise Marine",
+    "description": "Un bouquet frais de lys blancs et d'eucalyptus pour une ambiance marine apaisante.",
+    "description_simple": "bouquet lys blancs eucalyptus",
+    "composition": ["lys blancs", "eucalyptus"],
+    "couleur": ["blanc"],
+    "saison": "été",
+    "occasion": ["anniversaire", "amour", "idees_cadeau"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 27.90,
+      "17 fleurs": 39.90,
+      "27 fleurs": 52.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-002-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-002-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-002-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-ete-003",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Jardin Enchanté",
+    "description": "Un mélange coloré de pivoines, roses et lavande pour une touche romantique estivale.",
+    "description_simple": "bouquet pivoines roses lavande",
+    "composition": ["pivoines", "roses", "lavande"],
+    "couleur": ["rose", "violet"],
+    "saison": "été",
+    "occasion": ["amour", "mariage", "anniversaire"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 27.90,
+      "17 fleurs": 39.90,
+      "27 fleurs": 52.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-003-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-003-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-003-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-ete-004",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Fleurs des Champs",
+    "description": "Un bouquet champêtre avec des marguerites, coquelicots et herbes folles.",
+    "description_simple": "bouquet marguerites coquelicots herbes folles",
+    "composition": ["marguerites", "coquelicots", "herbes folles"],
+    "couleur": ["multicolores"],
+    "saison": "été",
+    "occasion": ["felicitations", "idees_cadeau", "anniversaire"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 27.90,
+      "17 fleurs": 39.90,
+      "27 fleurs": 52.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-004-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-004-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-004-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-ete-005",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Rose Passion",
+    "description": "Un bouquet intense de roses rouges pour exprimer vos sentiments les plus profonds.",
+    "description_simple": "bouquet roses rouges",
+    "composition": ["roses rouges"],
+    "couleur": ["rouge"],
+    "saison": "été",
+    "occasion": ["amour", "anniversaire", "mariage"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 27.90,
+      "17 fleurs": 39.90,
+      "27 fleurs": 52.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-005-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-005-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-005-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-ete-006",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Lumière d’Été",
+    "description": "Un bouquet éclatant de gerberas et de lys pour capturer l’essence de l’été.",
+    "description_simple": "bouquet gerberas lys",
+    "composition": ["gerberas", "lys"],
+    "couleur": ["orange", "jaune"],
+    "saison": "été",
+    "occasion": ["felicitations", "anniversaire", "idees_cadeau"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 27.90,
+      "17 fleurs": 39.90,
+      "27 fleurs": 52.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-006-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-006-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-006-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-ete-007",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Lavande et Soleil",
+    "description": "Une composition apaisante à base de lavande et de fleurs jaunes éclatantes.",
+    "description_simple": "bouquet lavande fleurs jaunes",
+    "composition": ["lavandes", "fleurs jaunes"],
+    "couleur": ["violet", "jaune"],
+    "saison": "été",
+    "occasion": ["remerciements", "felicitations", "anniversaire"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 27.90,
+      "17 fleurs": 39.90,
+      "27 fleurs": 52.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-007-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-007-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-007-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-ete-008",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Explosion Tropicale",
+    "description": "Un bouquet exotique avec hibiscus, oiseaux de paradis et feuillages exubérants.",
+    "description_simple": "bouquet hibiscus oiseaux paradis",
+    "composition": ["hibiscus", "oiseaux de paradis", "feuillages exubérants"],
+    "couleur": ["rouge", "orange"],
+    "saison": "été",
+    "occasion": ["felicitations", "mariage", "idees_cadeau"],
+    "tailles_generales": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 27.90,
+      "moyen": 39.90,
+      "grand": 52.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-008-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-008-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-008-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-ete-009",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Tendre Harmonie",
+    "description": "Un bouquet doux de roses pastel et de lisianthus pour des moments pleins de tendresse.",
+    "description_simple": "bouquet roses pastel lisianthus",
+    "composition": ["roses pastel", "lisianthus"],
+    "couleur": ["rose", "blanc"],
+    "saison": "été",
+    "occasion": ["amour", "naissance", "remerciements"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 27.90,
+      "17 fleurs": 39.90,
+      "27 fleurs": 52.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-009-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-009-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-009-03.webp"
+    ]
+  }, 
+  {
+    "id": "bouquets-fleurs-fraiches-ete-010",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Fleurs de Feu",
+    "description": "Un bouquet audacieux en rouge et orange pour un effet flamboyant.",
+    "description_simple": "bouquet rouge orange flamboyant",
+    "composition": ["fleurs rouges", "fleurs oranges"],
+    "couleur": ["rouge", "orange"],
+    "saison": "été",
+    "occasion": ["anniversaire", "amour", "felicitations"],
+    "tailles_generales": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 27.90,
+      "moyen": 39.90,
+      "grand": 52.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-010-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-010-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-010-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-ete-011",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Éclat d’Été",
+    "description": "Des fleurs vibrantes pour illuminer vos journées estivales.",
+    "description_simple": "bouquet fleurs vibrantes été",
+    "composition": ["fleurs vives", "feuillages"],
+    "couleur": ["multicolores"],
+    "saison": "été",
+    "occasion": ["idees_cadeau", "anniversaire", "remerciements"],
+    "tailles_generales": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 27.90,
+      "moyen": 39.90,
+      "grand": 52.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-011-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-011-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-011-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-ete-012",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Sérénité d’Août",
+    "description": "Un bouquet apaisant avec des tons doux pour les soirées d’été.",
+    "description_simple": "bouquet tons doux apaisant",
+    "composition": ["fleurs douces", "eucalyptus"],
+    "couleur": ["jaune"],
+    "saison": "été",
+    "occasion": ["mariage", "remerciements", "naissance"],
+    "tailles_generales": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 27.90,
+      "moyen": 39.90,
+      "grand": 52.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-012-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-012-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-ete-012-03.webp"
+    ]
+  }
+]
+
+

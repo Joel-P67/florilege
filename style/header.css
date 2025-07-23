@@ -1,0 +1,255 @@
+/* ===============================
+  Navbar
+=============================== */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1em;
+  padding: 0.6em 1em;
+  width: 100%;
+  background-image: var(--bg-gradient);
+  background-size: 100vw 100vh;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  flex-wrap: nowrap;
+}
+
+/* Colonne de gauche : juste le burger */
+.zone-gauche {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+/* Burger */
+.burger {
+  font-size: 1.6rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Colonne de droite (logo + icônes en 2 lignes) */
+.zone-droite {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+/* Ligne 1 : logo image + texte */
+.ligne-haut {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  flex-wrap: wrap;
+}
+
+.logo-image img {
+  height: 40px;
+}
+
+.logo-texte {
+  font-size: 1.8em;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+
+/* Ligne 2 : saisons + icônes */
+.ligne-bas {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.6em;
+  flex-wrap: wrap;
+  margin-top: 0.2em;
+}
+
+.selecteur-saison {
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+  font-size: 0.9em;
+}
+
+.selecteur-saison select {
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 0.35em 0.5em;
+  font-size: 0.9em;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+/* Icônes */
+.icone-compte,
+.icone-panier {
+  font-size: 1.2em;
+  color: white;
+  text-decoration: none;
+}
+
+#compteur-panier {
+  border: 1px solid #e0e0e0;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 0.2em 0.6em;
+  font-size: 0.9em;
+}
+
+/* ======= VERSION GRAND ÉCRAN > 615px ======= */
+@media screen and (min-width: 616px) {
+  .navbar {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .zone-droite {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .ligne-haut {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.6em;
+  }
+
+  .ligne-bas {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.6em;
+    margin-top: 0;
+    /* supprime l'espacement vertical inutile */
+  }
+}
+
+/* ======= VERSION PETIT ÉCRAN < 615px ======= */
+@media screen and (max-width: 615px) {
+  .navbar {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .zone-droite {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .ligne-haut {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.4em;
+  }
+
+  .ligne-bas {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.6em;
+    margin-top: 0.3em;
+  }
+
+  .logo-texte {
+    font-size: 1.4em;
+  }
+
+  .selecteur-saison select {
+    font-size: 0.85em;
+    padding: 0.3em 0.5em;
+  }
+}
+
+/* ===============================
+  Menu latéral
+=============================== */
+
+.side-menu {
+  position: fixed;
+  top: 3.75rem;
+  left: 0;
+  width: 275px;
+  height: calc(100% - 3.75rem);
+  padding: 2rem 1rem;
+  transform: translateX(0);
+  transition: transform 0.3s ease;
+  z-index: 999;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.logo-menu {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  /* ← ajuste cette valeur selon le rendu souhaité */
+  max-height: 90px;
+  height: auto;
+}
+
+.side-menu.hidden {
+  transform: translateX(-100%);
+}
+
+.side-menu ul {
+  padding: 0;
+}
+
+.side-menu li {
+  margin-bottom: 1rem;
+}
+
+.side-menu a {
+  display: block;
+  /* ← AJOUTÉ */
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.side-menu a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 600px) {
+  .side-menu {
+    top: 3rem;
+    height: calc(100% - 3rem);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .side-menu {
+    width: 100%;
+  }
+}

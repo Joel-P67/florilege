@@ -1,0 +1,242 @@
+[
+  {
+    "id": "bouquets-fleurs-fraiches-deuil-001",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Paix Éternelle",
+    "description": "Un bouquet apaisant de lys blancs et de feuillages verts, symbole de sérénité et de respect.",
+    "description_simple": "bouquet lys blancs feuillages verts",
+    "composition": ["lys blancs", "feuillages verts"],
+    "couleur": ["blanc"],
+    "saison": "toute saison",
+    "occasion": ["deuil"],
+    "tailles_generales": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 29.90,
+      "moyen": 42.90,
+      "grand": 56.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-001-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-001-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-001-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-deuil-002",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Souvenir Blanc",
+    "description": "Un hommage délicat avec des roses blanches et des gypsophiles, idéal pour exprimer un adieu tendre.",
+    "description_simple": "bouquet roses blanches gypsophiles",
+    "composition": ["roses blanches", "gypsophiles"],
+    "couleur": ["blanc"],
+    "saison": "toute saison",
+    "occasion": ["deuil"],
+    "tailles_generales": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 28.90,
+      "moyen": 40.90,
+      "grand": 55.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-002-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-002-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-002-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-deuil-003",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Tranquillité",
+    "description": "Des orchidées blanches et de l’eucalyptus pour un bouquet simple et élégant, empreint de respect.",
+    "description_simple": "bouquet orchidées blanches eucalyptus",
+    "composition": ["orchidées blanches", "eucalyptus"],
+    "couleur": ["blanc"],
+    "saison": "toute saison",
+    "occasion": ["deuil"],
+    "tailles_generales": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 32.90,
+      "moyen": 45.90,
+      "grand": 59.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-003-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-003-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-003-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-deuil-004",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Hommage Silencieux",
+    "description": "Un bouquet sobre d’œillets blancs et de feuillages argentés pour transmettre vos condoléances avec douceur.",
+    "description_simple": "bouquet œillets blancs feuillages argentés",
+    "composition": ["œillets blancs", "feuillages argentés"],
+    "couleur": ["blanc"],
+    "saison": "toute saison",
+    "occasion": ["deuil"],
+    "tailles_generales": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 26.90,
+      "moyen": 38.90,
+      "grand": 50.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-004-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-004-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-004-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-deuil-005",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Souffle d’Espoir",
+    "description": "Des iris violets et des asters blancs pour évoquer le souvenir et l’espoir dans la peine.",
+    "description_simple": "bouquet iris violets asters blancs",
+    "composition": ["iris violets", "asters blancs"],
+    "couleur": ["violet"],
+    "saison": "printemps",
+    "occasion": ["deuil"],
+    "tailles_generales": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 30.90,
+      "moyen": 43.90,
+      "grand": 58.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-005-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-005-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-005-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-deuil-006",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Nuit Apaisée",
+    "description": "Un contraste subtil de delphiniums bleus et de roses blanches pour une composition calme et noble.",
+    "description_simple": "bouquet delphiniums bleus roses blanches",
+    "composition": ["delphiniums bleus", "roses blanches"],
+    "couleur": ["bleu", "blanc"],
+    "saison": "automne",
+    "occasion": ["deuil"],
+    "tailles_generales": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 31.90,
+      "moyen": 44.90,
+      "grand": 59.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-006-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-006-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-006-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-deuil-007",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Sérénité Florale",
+    "description": "Un bouquet tout en pureté, composé de pivoines blanches et de fougères, évoquant la paix intérieure.",
+    "description_simple": "bouquet pivoines blanches fougères",
+    "composition": ["pivoines blanches", "fougères"],
+    "couleur": ["blanc"],
+    "saison": "printemps",
+    "occasion": ["deuil"],
+    "tailles_generales": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 33.90,
+      "moyen": 46.90,
+      "grand": 60.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-007-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-007-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-007-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-deuil-008",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Dernier Message",
+    "description": "Des tulipes blanches associées à de la lavande pour adresser un message de paix et de souvenir.",
+    "description_simple": "bouquet tulipes blanches lavande",
+    "composition": ["tulipes blanches", "lavande"],
+    "couleur": ["blanc", "violet"],
+    "saison": "printemps",
+    "occasion": ["deuil"],
+    "tailles_generales": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 29.90,
+      "moyen": 42.90,
+      "grand": 57.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-008-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-008-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-008-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-deuil-009",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Écho du Silence",
+    "description": "Un bouquet discret de chrysanthèmes blancs et de feuillages doux, pour un hommage silencieux.",
+    "description_simple": "bouquet chrysanthèmes blancs feuillages doux",
+    "composition": ["chrysanthèmes blancs", "feuillages doux"],
+    "couleur": ["blanc"],
+    "saison": "automne",
+    "occasion": ["deuil"],
+    "tailles_generales": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 27.90,
+      "moyen": 39.90,
+      "grand": 52.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-009-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-009-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-009-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-deuil-010",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Lumière du Souvenir",
+    "description": "Un bouquet élégant de callas blancs et d’eucalyptus pour honorer une mémoire chère.",
+    "description_simple": "bouquet callas blancs eucalyptus",
+    "composition": ["callas blancs", "eucalyptus"],
+    "couleur": ["blanc"],
+    "saison": "hiver",
+    "occasion": ["deuil"],
+    "tailles_generales": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 34.90,
+      "moyen": 48.90,
+      "grand": 62.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-010-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-010-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-deuil-010-03.webp"
+    ]
+  }
+]

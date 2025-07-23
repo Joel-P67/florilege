@@ -1,0 +1,564 @@
+:root {
+  /* ===== Couleurs Générales ===== */
+  --blanc: #ffffff;
+  --noir: #000000;
+  --gris-texte-principal: #333;
+  --gris-texte-secondaire: #4b4b4b;
+  --gris-foncé: #444;
+
+  /* ===== Couleurs Boutons & Alerte ===== */
+  --btn-texte: #ffffff;
+  --btn-fond: #000000;
+  /* à ajuster selon ton thème */
+  --btn-hover-border: rgba(0, 0, 0, 0.4);
+  --btn-border: rgba(0, 0, 0, 0.2);
+
+  --popup-bg: #ffd2d2;
+  --popup-texte: #990000;
+  --popup-btn-bg: #990000;
+  --popup-btn-hover: #cc0000;
+  --popup-border: #990000;
+
+  /* ===== Ombres ===== */
+  --box-shadow-standard: 0 4px 12px rgba(0, 0, 0, 0.5);
+  --box-shadow-clair: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+  /* ===== Fontes & Texte ===== */
+  --font-family-base: 'Poppins', sans-serif;
+  --font-size-base: 16px;
+  --line-height-base: 1.6;
+
+  --h1-size: 2.5rem;
+  --h2-size: 2rem;
+  --h3-size: 1.6rem;
+  --h4-size: 1.3rem;
+  --h5-size: 1.1rem;
+  --h6-size: 1rem;
+
+  /* ===== Spacing & Layout ===== */
+  --body-padding: 1rem;
+  --main-max-width: 1000px;
+  --section-padding: 20px;
+  --section-radius: 8px;
+  --table-padding-cell: 0.8rem 1rem;
+  --btn-height: 40px;
+  --btn-padding: 8px 16px;
+  --gap-standard: 20px;
+  --margin-h1-top: 6rem;
+  --margin-h-bottom: 1.5rem;
+  --margin-p-bottom: 1rem;
+  --margin-table-top: 1.5rem;
+
+  /* ===== Border Radius ===== */
+  --radius-small: 6px;
+  --radius-medium: 8px;
+
+  /* ===== Responsive Breakpoints ===== */
+  --breakpoint-large: 1000px;
+  --breakpoint-medium: 768px;
+  --breakpoint-small: 500px;
+
+  /* ===== Autres ===== */
+  --transition-btn: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.2s ease, background-color 0.3s ease;
+  --transition-opacity: opacity 0.4s ease;
+}
+
+/* ===============================
+   BASE CSS COMMUN À TOUT LE SITE
+================================== */
+
+/* ----- Variables CSS ----- */
+:root {
+  /* Couleurs principales */
+  --blanc: #ffffff;
+  --noir: #000000;
+
+  /* Couleurs de texte/thème */
+  --theme-texte: #333;
+  --texte-gris-foncé: #4b4b4b;
+
+  /* Ombres */
+  --box-shadow-standard: 0 4px 12px rgba(0, 0, 0, 0.5);
+  --text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+  /* Padding */
+  --body-padding: 1rem;
+}
+
+/* ----- Reset de base ----- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ----- Corps de page ----- */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--theme-texte, #333);
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Main centré et contenu fluide */
+main {
+  width: 100%;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+/* Section générique pour toutes les sections */
+.section {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 10px;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.section-color {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.section-hidden {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+/* ----- Titres ----- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 6rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-size: 1.1rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+/* ----- Paragraphes et texte ----- */
+p {
+  margin-bottom: 1rem;
+}
+
+/* ----- Classes utilitaires ----- */
+.weight-100 {
+  font-weight: 100;
+}
+
+.weight-200 {
+  font-weight: 200;
+}
+
+.weight-300 {
+  font-weight: 300;
+}
+
+.weight-400 {
+  font-weight: 400;
+}
+
+.weight-500 {
+  font-weight: 500;
+}
+
+.weight-600 {
+  font-weight: 600;
+}
+
+.weight-700 {
+  font-weight: 700;
+}
+
+.weight-800 {
+  font-weight: 800;
+}
+
+.weight-900 {
+  font-weight: 900;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* ----- Listes ----- */
+ul,
+ol {
+  list-style: none;
+  /* Pour éviter l'indentation laissée par défaut */
+  padding-left: 0;
+  /* Pour un rendu net */
+  margin-left: 0;
+}
+
+/* ----- Liens ----- */
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ================================
+   Tableau de base
+================================== */
+.table-tarifs {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.table-tarifs thead {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.table-tarifs tbody tr {
+  color: #444;
+  text-align: center;
+}
+
+.table-tarifs th,
+.table-tarifs td {
+  padding: 0.8rem 1rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Coins arrondis */
+.table-tarifs tr:first-child th:first-child {
+  border-top-left-radius: 8px;
+}
+
+.table-tarifs tr:first-child th:last-child {
+  border-top-right-radius: 8px;
+}
+
+.table-tarifs tr:last-child td:first-child {
+  border-bottom-left-radius: 8px;
+}
+
+.table-tarifs tr:last-child td:last-child {
+  border-bottom-right-radius: 8px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .table-tarifs {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .table-tarifs thead {
+    display: none;
+  }
+
+  .table-tarifs tr {
+    display: block;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1em;
+  }
+
+  .table-tarifs td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: none;
+    width: 100%;
+  }
+
+  .table-tarifs td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    flex: 1;
+    text-align: left;
+    padding-right: 1em;
+  }
+
+  .table-tarifs td img {
+    max-width: 60px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .table-tarifs thead {
+    display: none;
+  }
+
+  .table-tarifs,
+  .table-tarifs tbody,
+  .table-tarifs tr,
+  .table-tarifs td {
+    display: block;
+    width: 100%;
+  }
+
+  .table-tarifs tr {
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    padding: 1em;
+    box-shadow: var(--ombre-portee, 0 2px 8px rgba(0, 0, 0, 0.2));
+  }
+
+  .table-tarifs td {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.4em 0;
+    position: relative;
+  }
+
+  .table-tarifs td::before {
+    content: attr(data-label);
+    font-weight: 500;
+    flex: 0 0 40%;
+    text-align: right;
+    margin-right: 0.5rem;
+  }
+
+  .table-tarifs input[type="number"] {
+    width: 70px;
+  }
+
+  .table-tarifs img {
+    max-width: 80px;
+    height: auto;
+    border-radius: 8px;
+    margin: 0;
+    box-shadow: none;
+    border: none;
+  }
+}
+
+/* ----- Boutons génériques ----- */
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  height: 40px;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.2s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/* ----- Conteneur de boutons ----- */
+.boutons-actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 1.5rem;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.boutons-actions .btn {
+  min-width: 160px;
+  width: auto;
+}
+
+/* Responsive  */
+@media (max-width: 1000px) {
+  .boutons-actions {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .boutons-actions .btn {
+    min-width: auto;
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+/* Petits écrans (≤ 768px) */
+@media (max-width: 768px) {
+  .boutons-actions {
+    align-items: stretch;
+  }
+
+  .boutons-actions .btn {
+    max-width: none;
+  }
+}
+
+/* Mobiles (≤ 500px) */
+@media (max-width: 500px) {
+  .boutons-actions .btn {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    width: 100%;
+  }
+}
+
+/* ----- Images ----- */
+.section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2em auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* ==============================
+  Formulaire de paiement
+================================= */
+
+/* ---- Étiquettes ---- */
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+/* ---- Champs de formulaire ---- */
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+/* =============================
+   Message Popup
+=============================== */
+.custom-alert {
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffd2d2;
+  color: #990000;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  border: 1px solid #990000;
+  font-weight: bold;
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.custom-alert.visible {
+  opacity: 1;
+}
+
+.custom-alert .btn {
+  padding: 0.5rem 1rem;
+  background-color: #990000;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.custom-alert .btn:hover {
+  background-color: #cc0000;
+}
+
+.custom-alert .alert-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .custom-alert .alert-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .custom-alert .btn {
+    width: 100%;
+    max-width: 200px;
+  }
+}
+
+/* =============================
+   Responsive
+=============================== */
+
+@media (max-width: 768px) {
+  main {
+    padding: 1rem;
+  }
+
+  h1,
+  h2 {
+    text-align: center;
+  }
+
+  .page-fiche main.fiche-produit-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page-fiche .product-image,
+  .page-fiche .product-details {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}

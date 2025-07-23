@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicons standards -->
+  <link rel="icon" type="image/png" sizes="16x16" href="menu-img/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="menu-img/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="48x48" href="menu-img/favicon-48x48.png" />
+  <link rel="icon" type="image/png" sizes="64x64" href="menu-img/favicon-64x64.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="menu-img/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="128x128" href="menu-img/favicon-128x128.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="menu-img/favicon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="256x256" href="menu-img/favicon-256x256.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="menu-img/favicon-512x512.png" />
+
+  <!-- Apple Touch Icon pour iOS/iPadOS -->
+  <link rel="apple-touch-icon" sizes="180x180" href="menu-img/apple-touch-icon.png" />
+
+  <!-- Police -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+
+  <title>Florilège - Accueil</title>
+
+  <!-- Feuilles de style principales -->
+  <link rel="stylesheet" href="style/header.css" />
+  <link rel="stylesheet" href="style/base.css" />
+  <link rel="stylesheet" href="style/filtre.css" />
+
+  <!-- Thème saisonnier (CSS + JS) -->
+  <script src="script/saisons.js"></script>
+  <script>
+    function getSeason(date = new Date()) {
+      const month = date.getMonth();
+      switch (month) {
+        case 2:
+        case 3:
+        case 4:
+          return 'printemps';
+        case 5:
+        case 6:
+        case 7:
+          return 'ete';
+        case 8:
+        case 9:
+        case 10:
+          return 'automne';
+        default:
+          return 'hiver';
+      }
+    }
+
+    function chargerTheme(theme) {
+      // Supprimer anciennes feuilles de style thème
+      const anciensThemes = ['printemps', 'ete', 'automne', 'hiver'];
+      anciensThemes.forEach(t => {
+        const lien = document.getElementById(`theme-${t}`);
+        if (lien) lien.remove();
+        const scriptOld = document.getElementById(`script-${t}`);
+        if (scriptOld) scriptOld.remove();
+      });
+
+      // Ajouter la feuille CSS du thème
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = `style/${theme}.css`;
+      link.id = `theme-${theme}`;
+      document.head.appendChild(link);
+
+      // Ajouter le script JS du thème (après DOMContentLoaded)
+      window.addEventListener('DOMContentLoaded', () => {
+        const script = document.createElement('script');
+        script.src = `script/${theme}.js`;
+        script.id = `script-${theme}`;
+        document.body.appendChild(script);
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const themeStocke = localStorage.getItem('theme-saison');
+      const themeInitial = themeStocke || getSeason();
+      chargerTheme(themeInitial);
+
+      // Si tu as un select dans la navbar avec id 'select-theme'
+      const selectTheme = document.getElementById('select-theme');
+      if (selectTheme) {
+        selectTheme.value = themeInitial;
+        selectTheme.addEventListener('change', (e) => {
+          const nouveauTheme = e.target.value;
+          localStorage.setItem('theme-saison', nouveauTheme);
+          chargerTheme(nouveauTheme);
+        });
+      }
+    });
+  </script>
+</head>
+
+<body class="filtre-container">
+
+  <!-- Message JS désactivé -->
+  <noscript>
+    <style>
+      .no-js-message {
+        background-color: #ffd2d2;
+        color: #990000;
+        text-align: center;
+        padding: 1em;
+        font-weight: bold;
+        font-family: sans-serif;
+      }
+    </style>
+    <p class="no-js-message">⚠️ JavaScript est désactivé. Activez-le pour voir les produits et utiliser le site.</p>
+  </noscript>
+
+  <!-- Navbar -->
+  <div id="injection-header"></div>
+
+  <!-- Contenu principal -->
+  <main role="main" class="section section-hidden">
+    <!-- Titre principal -->
+    <section class="section section-hidden section-intro">
+      <h1>Bienvenue chez votre fleuriste en ligne !</h1>
+    </section>
+
+    <!-- Bloc filtre -->
+    <section id="filtre-produit" class="section section-color section-filtre">
+      <form id="form-filtre">
+
+        <!-- Catégorie -->
+        <label for="categorie">Catégorie :</label>
+        <select id="categorie" name="categorie" required>
+          <option value="">-- Choisir une catégorie --</option>
+          <option value="fleurs_fraiches">Fleurs Fraîches</option>
+          <option value="fleurs_sechees">Fleurs Séchées</option>
+          <option value="plantes">Plantes</option>
+          <option value="ambiance_bien_etre">Ambiance & bien être</option>
+          <option value="gourmandises">Gourmandises</option>
+        </select>
+
+        <!-- Type -->
+        <label for="type">Type :</label>
+        <select id="type" name="type" disabled>
+          <option value="">-- Choisir un type --</option>
+        </select>
+
+        <!-- Occasion -->
+        <label for="occasion">Occasion :</label>
+        <select id="occasion" name="occasion">
+          <option value="">-- Toutes occasions --</option>
+          <option value="anniversaire">Anniversaire</option>
+          <option value="amour">Amour</option>
+          <option value="mariage">Mariage</option>
+          <option value="felicitations">Félicitations</option>
+          <option value="naissance">Naissance</option>
+          <option value="remerciements">Remerciements</option>
+          <option value="noel">Noël</option>
+          <option value="astrologie">Astrologie</option>
+          <option value="idees_cadeau">Idées Cadeau</option>
+          <option value="deuil">Deuil</option>
+        </select>
+
+        <!-- Couleur -->
+        <label for="couleur">Couleur :</label>
+        <select id="couleur" name="couleur" disabled>
+          <option value="">-- Choisir une couleur --</option>
+        </select>
+      </form>
+    </section>
+
+    <section class="section section-hidden boutons-actions">
+      <button type="button" id="btn-reset" class="btn btn-theme">Réinitialiser</button>
+    </section>
+
+    <!-- Résultats -->
+    <section id="resultats" class="section section-color section-resultats">
+      <h2>Produits :</h2>
+      <div id="liste-produits"></div>
+      <p id="message-aucun" style="display: none; color: red;">
+        Aucun produit ne correspond à votre recherche.
+      </p>
+    </section>
+
+    <!-- Afficher plus -->
+    <section class="section section-hidden boutons-actions">
+      <button type="button" id="btn-afficher-plus" class="btn btn-theme" style="display: none;">
+        Afficher plus
+      </button>
+    </section>
+  </main>
+
+  <!-- Pied de page -->
+  <footer></footer>
+
+  <!-- Décor -->
+  <div class="petal-container"></div>
+  <div class="sunflower-container"></div>
+  <div class="oak-leaf-container"></div>
+  <div class="flake-container"></div>
+
+  <!-- Scripts -->
+  <script src="common.js"></script>
+  <!-- Scripts Panier Navbar -->
+  <script src="script/panier-navbar.js"></script>
+  <!-- Scripts -->
+  <script src="script/filtre.js"></script>
+</body>
+
+</html>

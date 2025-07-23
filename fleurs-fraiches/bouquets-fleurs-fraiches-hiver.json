@@ -1,0 +1,268 @@
+[
+  {
+    "id": "bouquets-fleurs-fraiches-hiver-001",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Neige Étoilée",
+    "description": "Un bouquet élégant de roses blanches et de branches de sapin, parfait pour les fêtes d’hiver.",
+    "description_simple": "bouquet roses blanches branches sapin",
+    "composition": ["roses blanches", "branches de sapin"],
+    "couleur": ["blanc"],
+    "saison": "hiver",
+    "occasion": ["noel", "anniversaire", "felicitations"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 29.90,
+      "17 fleurs": 42.90,
+      "27 fleurs": 56.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-001-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-001-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-001-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-hiver-002",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Flocon de Douceur",
+    "description": "Un mélange tendre de tulipes blanches et de gypsophile, idéal pour un geste délicat en hiver.",
+    "description_simple": "bouquet tulipes blanches gypsophiles",
+    "composition": ["tulipes blanches", "gypsophiles"],
+    "couleur": ["blanc"],
+    "saison": "hiver",
+    "occasion": ["naissance", "anniversaire", "felicitations"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 29.90,
+      "17 fleurs": 42.90,
+      "27 fleurs": 56.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-002-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-002-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-002-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-hiver-003",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Lueur Polaire",
+    "description": "Un bouquet éclatant d’orchidées blanches et feuillage argenté pour une touche de raffinement glacé.",
+    "description_simple": "bouquet orchidées blanches feuillages argentés",
+    "composition": ["orchidées blanches", "feuillages argentés"],
+    "couleur": ["blanc", "argent"],
+    "saison": "hiver",
+    "occasion": ["mariage", "anniversaire", "idees_cadeau"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 29.90,
+      "17 fleurs": 42.90,
+      "27 fleurs": 56.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-003-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-003-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-003-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-hiver-004",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Ambre d’Hiver",
+    "description": "Un bouquet chaud mêlant roses orange, baies rouges et branches de sapin, parfait pour réchauffer l’atmosphère.",
+    "description_simple": "bouquet roses orange baies rouges branches sapin",
+    "composition": ["roses orange", "baies rouges", "branches de sapin"],
+    "couleur": ["orange", "rouge"],
+    "saison": "hiver",
+    "occasion": ["noel", "anniversaire", "felicitations"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 29.90,
+      "17 fleurs": 42.90,
+      "27 fleurs": 56.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-004-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-004-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-004-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-hiver-005",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Cristal d’Argent",
+    "description": "Un bouquet sophistiqué avec des anémones noires, eucalyptus et branches argentées, pour une ambiance chic et hivernale.",
+    "description_simple": "bouquet anémones noires eucalyptus branches argentées",
+    "composition": ["anémones noires", "eucalyptus", "branches argentées"],
+    "couleur": ["noir", "argent"],
+    "saison": "hiver",
+    "occasion": ["idees_cadeau", "felicitations", "anniversaire"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 29.90,
+      "17 fleurs": 42.90,
+      "27 fleurs": 56.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-005-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-005-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-005-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-hiver-006",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Givre d’Or",
+    "description": "Un bouquet lumineux de tournesols et branches dorées, apportant chaleur et lumière aux journées froides.",
+    "description_simple": "bouquet tournesols branches dorées",
+    "composition": ["tournesols", "branches dorées"],
+    "couleur": ["jaune", "doré"],
+    "saison": "hiver",
+    "occasion": ["noel", "felicitations", "anniversaire"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 29.90,
+      "17 fleurs": 42.90,
+      "27 fleurs": 56.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-006-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-006-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-006-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-hiver-007",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Brume Argentée",
+    "description": "Un bouquet délicat mêlant lys blancs, eucalyptus et feuillage argenté, pour une atmosphère douce et pure.",
+    "description_simple": "bouquet lys blancs eucalyptus feuillages argentés",
+    "composition": ["lys blancs", "eucalyptus", "feuillages argentés"],
+    "couleur": ["blanc", "argent"],
+    "saison": "hiver",
+    "occasion": ["mariage", "naissance", "anniversaire"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 29.90,
+      "17 fleurs": 42.90,
+      "27 fleurs": 56.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-007-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-007-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-007-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-hiver-008",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Forêt de Givre",
+    "description": "Un bouquet sauvage de branches de sapin, baies blanches et feuillage, parfait pour une déco naturelle d’hiver.",
+    "description_simple": "bouquet branches de sapin baies blanches feuillage",
+    "composition": ["branches de sapin", "baies blanches", "feuillage"],
+    "couleur": ["blanc"],
+    "saison": "hiver",
+    "occasion": ["noel", "idees_cadeau", "felicitations"],
+    "tailles_generales": ["petit", "moyen", "grand"],
+    "tarifs": {
+      "petit": 29.90,
+      "moyen": 42.90,
+      "grand": 56.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-008-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-008-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-008-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-hiver-009",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Velours Rouge",
+    "description": "Un bouquet intense de roses rouges et feuillages verts, pour un message d’amour passionné.",
+    "description_simple": "bouquet roses rouges feuillages verts",
+    "composition": ["roses rouges", "feuillages verts"],
+    "couleur": ["rouge"],
+    "saison": "hiver",
+    "occasion": ["amour", "anniversaire", "mariage"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 29.90,
+      "17 fleurs": 42.90,
+      "27 fleurs": 56.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-009-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-009-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-009-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-hiver-010",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Brise Nordique",
+    "description": "Un bouquet frais d’edelweiss, eucalyptus et branches blanches, évoquant les paysages glacés du nord.",
+    "description_simple": "bouquet edelweiss eucalyptus branches blanches",
+    "composition": ["edelweiss", "eucalyptus", "branches blanches"],
+    "couleur": ["blanc"],
+    "saison": "hiver",
+    "occasion": ["noel", "idees_cadeau", "felicitations"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 29.90,
+      "17 fleurs": 42.90,
+      "27 fleurs": 56.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-010-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-010-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-010-03.webp"
+    ]
+  },
+  {
+    "id": "bouquets-fleurs-fraiches-hiver-011",
+    "categorie": "fleurs_fraiches",
+    "type": "bouquets",
+    "type_affichée": "Bouquet",
+    "nom": "Flamme d’Hiver",
+    "description": "Un bouquet vibrant mêlant anémones rouges, branches de sapin et baies, pour réchauffer les cœurs en saison froide.",
+    "description_simple": "bouquet anémones rouges branches sapin baies",
+    "composition": ["anémones rouges", "branches de sapin", "baies"],
+    "couleur": ["rouge"],
+    "saison": "hiver",
+    "occasion": ["noel", "amour", "anniversaire"],
+    "tailles_bouquets": ["11_fleurs", "17_fleurs", "27_fleurs"],
+    "tarifs": {
+      "11 fleurs": 29.90,
+      "17 fleurs": 42.90,
+      "27 fleurs": 56.90
+    },
+    "images": [
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-011-01.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-011-02.webp",
+      "../fleurs-fraiches-img/bouquets-fleurs-fraiches-hiver-011-03.webp"
+    ]
+  }
+]
+
+

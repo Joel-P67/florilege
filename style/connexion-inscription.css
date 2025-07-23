@@ -1,0 +1,68 @@
+/* ===============================
+   Connexion - Inscription
+================================== */
+
+/* Conteneur principal pour les blocs formulaire */
+.bloc-formulaire {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 2rem;
+}
+
+/* Bouton Connexion / Inscription */
+.option-formulaire {
+  border-radius: 8px;
+  padding: 2rem;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.option-formulaire:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulaire centré */
+form {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+/* Champs du formulaire */
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+  width: auto;
+}
+
+/* Boutons */
+form .boutons-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Masquer les formulaires par défaut */
+.hidden {
+  display: none !important;
+}

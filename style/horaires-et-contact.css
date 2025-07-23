@@ -1,0 +1,43 @@
+/* ==============================
+  HORAIRES ET CONTACT
+================================= */
+
+/* ----- Styles carte Google Maps ----- */
+.horaires-et-contact .carte-google {
+  max-width: 100%;
+  margin: 2rem auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.horaires-et-contact .carte-google iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+  display: block;
+}
+
+.horaires-et-contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.horaires-et-contact label {
+  color: var(--blanc);
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.horaires-et-contact input,
+.horaires-et-contact textarea {
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.horaires-et-contact textarea {
+  height: 200px;
+}
