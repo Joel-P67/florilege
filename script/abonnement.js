@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Ajout des comportements
       boutonConnexion.addEventListener("click", () => {
-        window.location.href = "connexion-inscription.html";
+        window.location.href = "/florilege/partials/connexion-inscription.html";
       });
 
       boutonAnnuler.addEventListener("click", () => {
@@ -53,10 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // Forcer l'affichage (transition CSS)
       setTimeout(() => alertDiv.classList.add("visible"), 10);
     } else {
-      window.location.href = "abonnement-paiement.html";
+      window.location.href = "/florilege/partials/abonnement-paiement.html";
     }
   });
 });
-
-
-

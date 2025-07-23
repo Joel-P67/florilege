@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "Votre panier est vide. Vous allez être redirigé vers la boutique."
     );
     setTimeout(() => {
-      window.location.href = "index.html";
+      window.location.href = "/florilege/index.html";
     }, 4000);
     return;
   }
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "Aucun mode de retrait sélectionné. Vous allez être redirigé vers la boutique."
     );
     setTimeout(() => {
-      window.location.href = "index.html";
+      window.location.href = "/florilege/index.html";
     }, 4000);
     return;
   }
@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.removeItem("modeRetrait");
 
     setTimeout(() => {
-      window.location.href = "index.html";
+      window.location.href = "/florilege/index.html";
     }, 4000);
   });
 });

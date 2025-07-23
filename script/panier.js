@@ -46,7 +46,7 @@ function afficherPanier() {
         <td data-label="Prix">${prixTotal.toFixed(2).replace(".", ",")} €</td>
         <td data-label="Supprimer">
           <button class="btn bouton-panier supprimer-article" onclick="supprimerDuPanier(${index})" title="Supprimer cet article">
-            <img src="menu-img/poubelle.png" alt="Supprimer" width="24" height="24">
+            <img src="/florilege/menu-img/poubelle.png" alt="Supprimer" width="24" height="24">
           </button>
         </td>
       </tr>

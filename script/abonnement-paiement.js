@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "Aucune formule d'abonnement sélectionnée. Vous allez être redirigé vers la page d’abonnement."
     );
     setTimeout(() => {
-      window.location.href = "abonnement.html";
+      window.location.href = "/florilege/partials/abonnement.html";
     }, 4000);
     return;
   }
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Redirection après validation
     setTimeout(() => {
-      window.location.href = "index.html";
+      window.location.href = "/florilege/index.html";
     }, 4000);
   });
 });
