@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Ajout des comportements
       boutonConnexion.addEventListener("click", () => {
-        window.location.href = "/florilege/partials/connexion-inscription.html";
+        window.location.href = "/florilege/menu/connexion-inscription.html";
       });
 
       boutonAnnuler.addEventListener("click", () => {
