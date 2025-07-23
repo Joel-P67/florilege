@@ -243,9 +243,8 @@
 
 @media screen and (max-width: 615px) {
   .side-menu {
-    top: 5.2rem;
-    /* ← adapte cette valeur à la hauteur réelle de la navbar mobile */
-    height: calc(100% - 5.2rem);
+    top: 7.7rem;
+    height: calc(100% - 7.65rem);
   }
 }
 
