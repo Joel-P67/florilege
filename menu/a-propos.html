@@ -28,73 +28,6 @@
   <!-- Feuilles de style principales -->
   <link rel="stylesheet" href="/florilege/style/header.css" />
   <link rel="stylesheet" href="/florilege/style/base.css" />
-
-  <!-- Thème saisonnier (CSS + JS) -->
-  <script src="/florilege/script/saisons.js"></script>
-  <script>
-    function getSeason(date = new Date()) {
-      const month = date.getMonth();
-      switch (month) {
-        case 2:
-        case 3:
-        case 4:
-          return 'printemps';
-        case 5:
-        case 6:
-        case 7:
-          return 'ete';
-        case 8:
-        case 9:
-        case 10:
-          return 'automne';
-        default:
-          return 'hiver';
-      }
-    }
-
-    function chargerTheme(theme) {
-      // Supprimer anciennes feuilles de style thème
-      const anciensThemes = ['printemps', 'ete', 'automne', 'hiver'];
-      anciensThemes.forEach(t => {
-        const lien = document.getElementById(`theme-${t}`);
-        if (lien) lien.remove();
-        const scriptOld = document.getElementById(`script-${t}`);
-        if (scriptOld) scriptOld.remove();
-      });
-
-      // Ajouter la feuille CSS du thème
-      const link = document.createElement('link');
-      link.rel = 'stylesheet';
-      link.href = `/florilege/style/${theme}.css`;
-      link.id = `theme-${theme}`;
-      document.head.appendChild(link);
-
-      // Ajouter le script JS du thème (après DOMContentLoaded)
-      window.addEventListener('DOMContentLoaded', () => {
-        const script = document.createElement('script');
-        script.src = `/florilege/script/${theme}.js`;
-        script.id = `script-${theme}`;
-        document.body.appendChild(script);
-      });
-    }
-
-    document.addEventListener('DOMContentLoaded', () => {
-      const themeStocke = localStorage.getItem('theme-saison');
-      const themeInitial = themeStocke || getSeason();
-      chargerTheme(themeInitial);
-
-      // Si tu as un select dans la navbar avec id 'select-theme'
-      const selectTheme = document.getElementById('select-theme');
-      if (selectTheme) {
-        selectTheme.value = themeInitial;
-        selectTheme.addEventListener('change', (e) => {
-          const nouveauTheme = e.target.value;
-          localStorage.setItem('theme-saison', nouveauTheme);
-          chargerTheme(nouveauTheme);
-        });
-      }
-    });
-  </script>
 </head>
 
 <body class="a-propos">
@@ -113,34 +46,7 @@
   </noscript>
 
   <!-- Navbar -->
-  <header class="navbar shared-bg">
-    <div class="zone-gauche">
-      <button id="burger" class="burger" aria-label="Menu de navigation">&#9776;</button>
-    </div>
-
-    <div class="zone-droite">
-      <div class="ligne-haut">
-        <a href="/florilege/index.html" class="logo-image">
-          <img src="/florilege/menu-img/logo.png" alt="Logo Florilège" />
-        </a>
-        <a href="/florilege/index.html" class="logo-texte">Florilège</a>
-      </div>
-      <div class="ligne-bas">
-        <div class="selecteur-saison">
-          <label for="select-theme">Saison :</label>
-          <select id="select-theme" aria-label="Choisir le thème saisonnier">
-            <option value="printemps">Printemps</option>
-            <option value="ete">Été</option>
-            <option value="automne">Automne</option>
-            <option value="hiver">Hiver</option>
-          </select>
-        </div>
-        <a href="/florilege/menu/connexion-inscription.html" class="icone-compte" title="Connexion / Inscription">👤</a>
-        <a href="/florilege/panier.html" class="icone-panier" title="Panier">🛒</a>
-        <span id="compteur-panier">0</span>
-      </div>
-    </div>
-  </header>
+  <div id="injection-header"></div>
 
   <!-- Menu Latéral -->
   <nav id="side-menu" class="side-menu hidden shared-bg">
@@ -206,6 +112,8 @@
   <div class="oak-leaf-container"></div>
   <div class="flake-container"></div>
 
+  <!-- Scripts -->
+  <script src="/florilege/script/common.js"></script>
   <!-- Scripts Panier Navbar -->
   <script src="/florilege/script/panier-navbar.js"></script>
   <!-- Message Alerte (popup) -->
