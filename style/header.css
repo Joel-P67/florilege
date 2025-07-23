@@ -241,6 +241,14 @@
   border-radius: 8px;
 }
 
+@media screen and (max-width: 615px) {
+  .side-menu {
+    top: 5.2rem;
+    /* ← adapte cette valeur à la hauteur réelle de la navbar mobile */
+    height: calc(100% - 5.2rem);
+  }
+}
+
 @media screen and (max-width: 600px) {
   .side-menu {
     top: 3rem;
