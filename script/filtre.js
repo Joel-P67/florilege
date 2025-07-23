@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const lien = document.createElement('a');
       lien.className = 'produit';
-      lien.href = `fiche-produit.html?id=${encodeURIComponent(p.id)}`;
+      lien.href = `/florilege/partials/fiche-produit.html?id=${encodeURIComponent(p.id)}`;
       lien.innerHTML = `
         <img src="${imgSrc}" alt="${p.nom || 'Image produit'}" />
         <h3>${p.nom || 'Nom inconnu'}</h3>

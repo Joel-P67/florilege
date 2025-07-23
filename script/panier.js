@@ -144,7 +144,7 @@ function validerCommande() {
   localStorage.setItem("modeRetrait", choix);
 
   // ✅ Rediriger vers la page de paiement
-  window.location.href = "panier-paiement.html";
+  window.location.href = "/florilege/partials/panier-paiement.html";
 }
 
 function supprimerDuPanier(index) {
