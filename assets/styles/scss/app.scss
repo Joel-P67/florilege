@@ -1,0 +1,54 @@
+// =========================
+// 🎨 Global
+// =========================
+@use "./global/normalize" as*;  // reset navigateur
+@use "./global/variables" as*;  // couleurs, espacements, typographies
+@use "./global/mixins" as*;     // mixins réutilisables
+
+// =========================
+// 🌍 Utils
+// =========================
+@use "./utils/bases" as*;       // body, titres, liens
+@use "./utils/layout" as*;     // containers, sections, espacement
+
+// =========================
+// 🧩 Composants
+// =========================
+@use "./components/buttons" as*;
+@use "./components/filtre" as*;
+@use "./components/header" as*;
+@use "./components/footer" as*;
+@use "./components/form" as*;
+@use "./components/table" as*;
+
+// =========================
+// 📄 Pages
+// =========================
+@use "./pages/aPropos" as*;
+@use "./pages/cgu" as*;
+@use "./pages/confirmationCommande" as*;
+@use "./pages/contact" as*;
+@use "./pages/erreur404" as*;
+@use "./pages/erreur500" as*;
+@use "./pages/espaceClient" as*;
+@use "./pages/evenements" as*;
+@use "./pages/faq" as*;
+@use "./pages/ficheProduit" as*;
+@use "./pages/historiqueCommandes" as*;
+@use "./pages/index" as*;
+@use "./pages/inscriptionConnexion" as*;
+@use "./pages/livreOr" as*;
+@use "./pages/mentionsLegales" as*;
+@use "./pages/newsletter" as*;
+@use "./pages/paiement" as*;
+@use "./pages/panier" as*;
+@use "./pages/partenaires" as*;
+@use "./pages/politiqueConfidentialite" as*;
+@use "./pages/profilUtilisateur" as*;
+
+
+// -----------------------------------------------------
+//  RAPPELS
+// cd assets/styles
+// sass scss/app.scss css/app.css --watch
+// -----------------------------------------------------

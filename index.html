@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de vente de bleu</title>
+    <link rel="stylesheet" href="./assets/styles/css/app.css">
+</head>
+
+<body>
+    <!-- ========================= -->
+    <!-- HEADER -->
+    <!-- ========================= -->
+    <header class="header">
+        <div class="container">
+            <!-- Logo et nom -->
+            <div class="logo">
+                <a href="./index.html" class="logo-link">
+                    <img src="./assets/images/logo/logo.png" alt="Logo Florilège" class="logo-img">
+                    <span class="logo-text">Florilège</span>
+                </a>
+            </div>
+
+            <!-- Navigation et boutons -->
+            <nav class="nav" aria-label="Navigation principale">
+                <button class="nav-btn" aria-label="Connexion / Inscription">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" aria-hidden="true">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    <span class="btn-text">Connexion</span>
+                </button>
+
+                <button class="nav-btn" aria-label="Panier">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" aria-hidden="true">
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                    </svg>
+                    <span class="btn-text">Panier</span>
+                </button>
+
+                <div class="menu">
+                    <button class="nav-btn menu-toggle" aria-label="Menu" aria-expanded="false"
+                        aria-controls="main-menu">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" aria-hidden="true">
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
+                        <span class="btn-text">Menu</span>
+                    </button>
+
+                    <ul class="submenu" id="main-menu">
+                        <li><a href="./pages/aPropos.html">À propos</a></li>
+                        <li><a href="./pages/faq.html">Foire aux questions</a></li>
+                        <li><a href="./pages/contact.html">Nous contacter</a></li>
+                        <li><a href="./pages/livreOr.html">Livre d'Or</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========================= -->
+    <!-- SECTION PRINCIPALE -->
+    <!-- ========================= -->
+    <section class="section principale container">
+        <h2>Nos produits en bleu</h2>
+        <p>Découvrez notre sélection de bleus turquoise de haute qualité, associés à des détails raffinés.</p>
+        <button class="btn-primary">Ajouter au panier</button>
+        <button class="btn-secondary">En savoir plus</button>
+    </section>
+
+    <!-- ========================= -->
+    <!-- FORMULAIRE DE CONTACT -->
+    <!-- ========================= -->
+    <section class="section container">
+        <h2>Contactez-nous</h2>
+        <form class="formulaire" action="#" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" placeholder="Votre nom">
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="Votre email">
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" placeholder="Votre message"></textarea>
+
+            <button type="submit" class="submit-button">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- ========================= -->
+    <!-- TABLEAU DE DONNÉES -->
+    <!-- ========================= -->
+    <section class="section container">
+        <h2>Stocks disponibles</h2>
+        <table>
+            <caption>Liste des produits</caption>
+            <thead>
+                <tr>
+                    <th>Produit</th>
+                    <th>Couleur</th>
+                    <th>Stock</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bleu ciel</td>
+                    <td>Turquoise</td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <td>Bleu profond</td>
+                    <td>Turquoise foncé</td>
+                    <td>85</td>
+                </tr>
+                <tr>
+                    <td>Bleu pastel</td>
+                    <td>Turquoise clair</td>
+                    <td>200</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- ========================= -->
+    <!-- FOOTER -->
+    <!-- ========================= -->
+    <footer class="footer">
+        <p>&copy; 2025 Bleu en ligne. Tous droits réservés.</p>
+    </footer>
+
+    <!-- ========================= -->
+    <!-- SCRIPT -->
+    <!-- ========================= -->
+    <script src="./assets/script/burger.js"></script>
+
+</body>
+
+</html>

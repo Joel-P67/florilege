@@ -1,0 +1,34 @@
+// =========================
+// 🔚 Footer
+// =========================
+@use "../global/variables" as *;  // couleurs, espacements, typographies
+@use "../global/mixins" as *;     // mixins réutilisables
+
+footer {
+  background-image: $gradient-turquoise;
+  color: $text-secondary;
+  padding: $spacing-lg 0;
+  text-align: center;
+  border-top: 1px solid $gray-light;
+
+  p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  a {
+    color: $link-primary;
+    text-decoration: none;
+    transition: $transition-default;
+
+    &:hover,
+    &:focus {
+      color: $link-primary-hover;
+      outline: none;
+    }
+
+    &:active {
+      color: $link-primary-active;
+    }
+  }
+}

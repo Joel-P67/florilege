@@ -1,0 +1,55 @@
+// =========================
+// 🧱 Layout global
+// =========================
+@use "../global/variables" as *;
+@use "../global/mixins" as *;
+
+// -------------------------
+// Sections
+// -------------------------
+section {
+  padding: $spacing-md 0;
+  background-color: $background-section-light;
+
+  // Espacement vertical renforcé sur grands écrans
+  @include respond-to(desktop) {
+    padding: $spacing-lg 0;
+  }
+
+  // Variante alternée
+  &.alt {
+    background-color: $pink-muted; // couleur alternative pour sections
+  }
+}
+
+// -------------------------
+// Conteneur principal
+// -------------------------
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto; // centrage horizontal moderne
+  padding-inline: $spacing-md;
+}
+
+// -------------------------
+// Utilitaires de structure
+// -------------------------
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-sm;
+
+  @include respond-to(desktop) {
+    gap: $spacing-md;
+  }
+}
+
+.grid {
+  display: grid;
+  gap: $spacing-sm;
+
+  @include respond-to(desktop) {
+    gap: $spacing-md;
+  }
+}

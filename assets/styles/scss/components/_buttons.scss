@@ -1,0 +1,80 @@
+// =========================
+// 🔘 Buttons
+// =========================
+@use "../global/variables" as *;
+@use "../global/mixins" as *;
+
+// =========================
+// Primary Button
+// =========================
+.btn-primary {
+  @include button-style(
+    $button-primary,
+    $button-primary-hover,
+    $button-primary-active,
+    $button-primary-disabled
+  );
+
+  background-color: $white;
+  color: $button-primary;
+  border: $border-width $border-style $border-primary;
+  margin: $spacing-xs 0;
+  width: 100%;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: $shadow-box-light;
+
+  &:hover{
+    color: $white;
+    border-color: $border-primary-over;
+  }
+
+  &:disabled {
+    border-color: $button-primary-disabled;
+    box-shadow: none;
+  }
+
+  @include respond-to(tablet) {
+    width: auto;
+    margin: 0 $spacing-xs;
+  }
+}
+
+// =========================
+// Secondary Button
+// =========================
+.btn-secondary {
+  @include button-style(
+    $button-secondary,
+    $button-secondary-hover,
+    $button-secondary-active,
+    $button-secondary-disabled
+  );
+
+  background-color: $white;
+  color: $button-secondary;
+  border: $border-width $border-style $border-secondary;
+  margin: $spacing-xs 0;
+  width: 100%;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: $shadow-box-light;
+
+  &:hover{
+    color: $white;
+    border-color: $border-secondary-over;
+  }
+
+  @include respond-to(tablet) {
+    width: auto;
+    margin: $spacing-xs;
+  }
+}
+
+// =========================
+// Disabled state (global)
+// =========================
+.bouton-desactive {
+  cursor: not-allowed;
+  opacity: 0.6;
+}

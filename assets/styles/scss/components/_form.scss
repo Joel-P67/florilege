@@ -1,0 +1,98 @@
+// =========================
+// 📨 Forms
+// =========================
+@use "../global/variables" as *;  // couleurs, espacements, typographies
+@use "../global/mixins" as *;     // mixins réutilisables
+
+// =========================
+// ✏️ Input fields
+// =========================
+input,
+textarea,
+select {
+  width: 100%;
+  padding: $spacing-sm $spacing-md;
+  font-size: 16px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: $text-primary;
+  background-color: $white;
+  border: $border-width $border-style $gray-light;
+  border-radius: $border-radius-xs;
+  transition: $transition-default;
+  margin: $spacing-xs 0;
+
+  &:focus {
+    outline: $focus-outline-width $focus-outline-style $focus-outline-color;
+    outline-offset: 2px;
+    border-color: $focus-outline-color;
+  }
+
+  &:disabled {
+    background-color: $button-primary-disabled; // cohérence avec le design system
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+}
+
+// =========================
+// 🏷️ Labels
+// =========================
+label {
+  display: block;
+  font-weight: 600;
+  color: $text-primary;
+  margin-bottom: $spacing-xs;
+}
+
+.submit-button {
+  @include button-style(
+    $button-primary,
+    $button-primary-hover,
+    $button-primary-active,
+    $button-primary-disabled
+  );
+
+  background-color: $white;
+  color: $button-primary;
+  border: $border-width $border-style $border-primary;
+  margin: $spacing-xs 0;
+  width: 100%;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: $shadow-box-light;
+
+  &:hover{
+    color: $white;
+    border-color: $border-primary-over;
+  }
+
+  &:disabled {
+    border-color: $button-primary-disabled;
+    box-shadow: none;
+  }
+
+  @include respond-to(tablet) {
+    width: auto;
+    margin: 0 $spacing-xs;
+  }
+}
+
+// =========================
+// ⚠️ Error states
+// =========================
+.input-error {
+  border-color: $alert-error;
+}
+
+.error-message {
+  color: $alert-error;
+  font-size: 14px;
+  margin-top: $spacing-xs;
+}
+
+// =========================
+// ✅ Success states
+// =========================
+.input-success {
+  border-color: $alert-success;
+}

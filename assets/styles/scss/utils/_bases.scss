@@ -1,0 +1,66 @@
+// =========================
+// 🌍 Base du site
+// =========================
+@use "../global/variables" as *;
+@use "../global/mixins" as *;
+
+// -------------------------
+// Corps du document
+// -------------------------
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $text-primary;
+  background-color: $background-main;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased; // meilleure lisibilité
+  text-rendering: optimizeLegibility;
+}
+
+// -------------------------
+// Titres
+// -------------------------
+h1, h2, h3, h4, h5, h6 {
+  color: $heading-color;
+  line-height: 1.2;
+  margin-bottom: $spacing-sm;
+  font-weight: 700;
+}
+
+// -------------------------
+// Paragraphes
+// -------------------------
+p {
+  color: $text-primary;
+  margin-bottom: $spacing-md;
+}
+
+// -------------------------
+// Liens
+// -------------------------
+a {
+  color: $link-on-dark-hover;
+  text-decoration: none;
+  transition: $transition-default;
+
+  &:hover,
+  &:focus {
+    color: $link-on-dark-hover;
+    outline: none;
+  }
+
+  &:active {
+    color: $link-on-dark-active;
+  }
+}
+
+// -------------------------
+// Images et médias
+// -------------------------
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

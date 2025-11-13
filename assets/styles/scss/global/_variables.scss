@@ -1,0 +1,130 @@
+// =======================================
+// 🎨 Base Colors (Palette principale)
+// =======================================
+$white: #F4FBFB;
+$black: #1F1F1F;
+$gray-light: #888888;
+$gray-dark: #646464;
+
+$turquoise: #1FA3A3;
+$turquoise-light: #33b9b9;
+$turquoise-dark: #0E4C61;
+$turquoise-muted: #BDEFEF;
+
+$pink: #F9B6C3;
+$pink-light: #F596A8;
+$pink-dark: #E97E8B;
+$pink-muted: #FADCE1;
+
+$red-light: #f86874;
+$green-light: #A8E6CF;
+
+$gradient-turquoise: linear-gradient(to right top, #0e4c61, #076175, #017686, #088c96, #1fa3a3);
+
+// =======================================
+// 🧩 UI Elements (Éléments d’interface)
+// =======================================
+
+// Backgrounds (Arrière-plans)
+$background-header-footer: $turquoise;
+$background-main: $white;
+$background-section-light: $white;
+$background-section-dark: rgba($turquoise-muted, 0.2);
+
+// Logo span (Logo texte)
+$logo-span: $white;
+$logo-span-hover: $pink-light;
+
+// Headings H1, H2, H3 (Titres H1, H2, H3)
+$heading-color: $turquoise-dark;
+
+// Texts (Textes)
+$text-primary: $turquoise;              // Main text (Texte principal)
+$text-secondary: $pink-light;           // Secondary text (ex: paragraphes discrets)
+$text-on-dark: $white;                  // Text on dark background (Texte sur fond sombre)
+
+// Links (Liens)
+$link-on-dark: $white;                  // Links on dark background (Liens sur fond sombre)
+$link-on-dark-hover: $turquoise-dark;
+$link-on-dark-active: $turquoise-dark;
+$link-on-dark-visited: $turquoise-muted;
+
+$link-primary: $turquoise;
+$link-primary-hover: $turquoise-dark;
+$link-primary-active: $turquoise-dark;
+$link-primary-visited: $turquoise-muted;
+
+$link-secondary: $pink-light;
+$link-secondary-hover: $pink-dark;
+$link-secondary-active: $pink-dark;
+$link-secondary-visited: $turquoise-muted;
+
+// Buttons (Boutons)
+$button-primary: $turquoise;
+$button-primary-hover: $turquoise-light;
+$button-primary-active: $turquoise-dark;
+$button-primary-disabled: $turquoise-muted;
+$border-primary: $turquoise;
+$border-primary-over: $turquoise-light;
+
+$button-secondary: $pink;
+$button-secondary-hover: $pink-light;
+$button-secondary-active: $pink-dark;
+$button-secondary-disabled: $pink-muted; 
+$border-secondary: $pink-light;
+$border-secondary-over: $pink-light;
+
+// Focus & Outlines Colors (Couleurs de Focus & contours)
+$focus-outline-color: $turquoise-dark;
+$focus-outline-secondary-color: $pink-dark;
+
+// Tables (Tableaux)
+$table-header-bg: $turquoise;
+$table-header-text: $white;
+$table-row-even: rgba($white, 0.5);
+$table-row-hover: rgba($turquoise-muted, 0.3);
+
+// Alerts (Alertes)
+$alert-error: $red-light;
+$alert-success: $green-light;
+
+// =======================================
+// ⚙️ Design Tokens / Styles généraux
+// =======================================
+
+// Shadows (Ombres)
+$shadow-box-light: 0 4px 8px rgba(0, 0, 0, 0.25);
+$shadow-box-strong: 0 6px 12px rgba(0, 0, 0, 0.5);
+
+$shadow-text-light: 1px 1px 2px rgba(0, 0, 0, 0.25);
+$shadow-text-strong: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+$shadow-text-glow: 0 0 4px rgba($turquoise, 0.6);
+
+// Transitions (Transitions)
+$transition-duration: 0.3s;
+$transition-easing: ease-in-out;
+$transition-default: all $transition-duration $transition-easing;
+
+// Spacing (Espace: Margins & Paddings)
+$spacing-xs: 5px;                       // small spacing (ex: padding, margin, gap)
+$spacing-sm: 10px;                      // medium spacing
+$spacing-md: 15px;                      // standard spacing
+$spacing-lg: 30px;                      // large spacing
+
+// Border styles (Styles de bordures)
+$border-width: 2px;
+$border-style: solid;
+
+// Focus & Outlines styles (Styles de Focus & contours)
+$focus-outline-width: 2px;
+$focus-outline-style: solid;
+
+// Border radius (Bordures arrondies)
+$border-radius-xs: 5px;                 // small radius (ex: buttons, inputs)
+$border-radius-sm: 10px;                // standard radius (ex: cards, sections)
+
+// Breakpoints (Points de rupture)
+$breakpoint-tablet: 768px;
+$breakpoint-laptop: 1024px;
+$breakpoint-desktop: 1280px;

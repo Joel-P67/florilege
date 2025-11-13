@@ -1,0 +1,198 @@
+// =========================
+// 🔝 Header (mobile first)
+// =========================
+@use "../global/variables" as *;
+@use "../global/mixins" as *;
+
+.header {
+  background-image: $gradient-turquoise;
+  border-bottom: 1px solid $turquoise;
+  box-shadow: $shadow-box-light;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 80px;
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  // ===== Logo =====
+.logo-link {
+  position: relative;
+  display: inline-block; // permet de contenir l'image et le texte superposé
+  text-decoration: none;
+
+  &:hover .logo-text {
+    color: $link-secondary-hover;
+  }
+}
+
+.logo-img {
+  display: block;
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+}
+
+.logo-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: $logo-span;
+  text-shadow: $shadow-text-strong;
+  pointer-events: none; // pour que le clic passe sur l'image
+  white-space: nowrap;
+}
+
+  // ===== Navigation =====
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  // ===== Boutons =====
+  .nav-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.5rem;
+    color: $white;
+    transition: color $transition-default;
+    position: relative;
+
+    &:hover {
+      color: $link-secondary-hover;
+      outline: none;
+    }
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  // ===== Texte du bouton (infobulle) =====
+  .btn-text {
+    font-size: 0.75rem;
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $white;
+    color: $turquoise;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity $transition-default, visibility $transition-default;
+    box-shadow: $shadow-box-light;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -5px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-bottom: 5px solid $turquoise;
+    }
+
+    .nav-btn:hover & {
+      opacity: 1;
+      visibility: visible;
+      z-index: 1000;
+    }
+
+    @media (min-width: $breakpoint-tablet) {
+      display: block;
+    }
+  }
+
+  // ===== Menu déroulant =====
+  .menu {
+    position: relative;
+  }
+
+  .submenu {
+    list-style: none;
+    position: fixed;
+    left: 0;
+    top: 80px;
+    width: 100%;
+    background-color: $background-header-footer;
+    border-bottom: 1px solid $turquoise;
+    box-shadow: $shadow-box-light;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: $transition-default;
+    display: flex;
+    flex-direction: column;
+
+    &.active {
+      max-height: 500px;
+      opacity: 1;
+    }
+
+    @media (min-width: $breakpoint-desktop) {
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    li {
+      border-bottom: 1px solid $turquoise;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      @media (min-width: $breakpoint-desktop) {
+        border-bottom: none;
+        border-right: 1px solid $turquoise;
+
+        &:last-child {
+          border-right: none;
+        }
+      }
+
+      a {
+        display: block;
+        padding: 1rem 1.5rem;
+        color: $white;
+        text-shadow: $shadow-text-strong;
+        text-decoration: none;
+        transition: $transition-default;
+
+        &:hover,
+        &:focus {
+          color: $button-secondary-hover;
+          outline: none;
+        }
+
+        @media (min-width: $breakpoint-desktop) {
+          padding: 1rem 2rem;
+        }
+      }
+    }
+  }
+}

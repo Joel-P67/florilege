@@ -1,0 +1,60 @@
+// =========================
+// 📊 Modern Tables
+// =========================
+
+@use "../global/variables" as *;
+@use "../global/mixins" as *;
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: $spacing-lg;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: $text-primary;
+  background-color: transparent;
+  border: none; // suppression de la bordure globale
+}
+
+thead {
+  background-image: $gradient-turquoise;
+}
+
+thead th {
+  color: $white; // texte blanc
+}
+
+tbody > tr:nth-child(even) {
+  background-color: rgba($background-section-light, 0.5); // ligne paire
+}
+
+// Hover sur les lignes
+tbody > tr:hover {
+  background-color: rgba($button-primary-disabled, 0.5);
+  transition: background-color $transition-default;
+}
+
+// Cellules
+th,
+td {
+  padding: $spacing-sm $spacing-md;
+  text-align: left;
+  border: none; // suppression des bordures classiques
+  border-bottom: 1px solid rgba($gray-light, 0.5); // uniquement bordure horizontale, plus légère
+}
+
+// En-têtes
+th {
+  background-color: transparent;
+  color: $button-primary; // texte header turquoise
+  font-weight: 700;
+  border-bottom: 1px solid $button-primary; // séparation plus marquée pour le header
+}
+
+// Caption (titre du tableau)
+caption {
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: $spacing-sm;
+  color: $button-primary;
+  font-size: 1.1rem;
+}

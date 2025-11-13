@@ -1,0 +1,108 @@
+/*! _normalize.scss - version minimaliste pour projet moderne */
+
+// =========================
+// 🎨 Global
+// =========================
+@use "../global/variables" as*;  // couleurs, espacements, typographies
+
+// =========================
+// 🔹 Box sizing global
+// =========================
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// =========================
+// 🔹 Réinitialisation marges / paddings
+// =========================
+body,
+h1, h2, h3, h4, h5, h6,
+p, figure, blockquote, dl, dd,
+ul, ol, li,
+fieldset, legend,
+textarea, pre {
+  margin: 0;
+  padding: 0;
+}
+
+// =========================
+// 🔹 Typographie
+// =========================
+body {
+  line-height: 1.5;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: $background-main; // optionnel selon ton thème
+  color: $text-primary;
+}
+
+// =========================
+// 🔹 Listes
+// =========================
+ul, ol {
+  list-style: none;
+}
+
+// =========================
+// 🔹 Images
+// =========================
+img, picture {
+  max-width: 100%;
+  display: block;
+}
+
+// =========================
+// 🔹 Liens
+// =========================
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// =========================
+// 🔹 Formulaires
+// =========================
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  line-height: inherit;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:disabled,
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+// =========================
+// 🔹 Tableaux
+// =========================
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+// =========================
+// 🔹 Divers
+// =========================
+hr {
+  border: none;
+  height: 1px;
+  background-color: $gray-light;
+}
+
+[hidden] {
+  display: none;
+}
