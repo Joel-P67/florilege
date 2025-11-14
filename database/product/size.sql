@@ -1,6 +1,5 @@
--- Table des tailles disponibles (réutilisable pour tous les produits)
-CREATE TABLE sizes (
-    id SERIAL PRIMARY KEY,
+CREATE TABLE IF NOT EXISTS sizes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL UNIQUE
 );
 

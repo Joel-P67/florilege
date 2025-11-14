@@ -2,6 +2,7 @@ CREATE TABLE IF NOT EXISTS product_type (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     category_id INT NOT NULL,
+    UNIQUE(name, category_id),
     FOREIGN KEY (category_id) REFERENCES category(id)
 );
 
