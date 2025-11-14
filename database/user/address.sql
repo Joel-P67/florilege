@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS adress (
+CREATE TABLE IF NOT EXISTS address (
     id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT NOT NULL,
     label VARCHAR(100),
@@ -6,5 +6,5 @@ CREATE TABLE IF NOT EXISTS adress (
     postal_code VARCHAR(20),
     city VARCHAR(100),
     country VARCHAR(100) DEFAULT 'France',
-    FOREIGN KEY (user_id) REFERENCES user(id) ON DELETE CASCADE
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
