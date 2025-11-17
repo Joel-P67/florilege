@@ -1,52 +1,34 @@
 CREATE TABLE IF NOT EXISTS product_type (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    category_id INT NOT NULL,
-    UNIQUE(name, category_id),
-    FOREIGN KEY (category_id) REFERENCES category(id)
+    id INT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL UNIQUE
 );
 
-INSERT INTO product_type (name, category_id) VALUES
--- Fresh Flowers (1)
-('Bouquet', 1),
-('Crowns', 1),
-('Ornaments', 1),
+INSERT INTO product_type (id, name) VALUES
 
--- Dried Flowers (2)
-('Bouquet', 2),
-('Crowns', 2),
-('Ornaments', 2),
-
--- Plants (3)
-('Cactus', 3),
-('Fern', 3),
-('Orchid', 3),
-('Bonsai', 3),
-('Flowering Plant', 3),
-('Indoor Tree', 3),
-('Air Plant', 3),
-('Vine', 3),
-('Foliage', 3),
-
--- Terrariums (4)
-('Closed Terrarium', 4),
-('Open Terrarium', 4),
-('Hanging Terrarium', 4),
-('Miniature Terrarium', 4),
-('Aqua Terrarium', 4),
-('Desert Terrarium', 4),
-
--- Candies (5)
-('Chocolates', 5),
-('Sweets', 5),
-
--- Equipment (6)
-('Tools', 6),
-('Pots', 6),
-('Vases', 6),
-
--- Wellness (7)
-('Candles', 7),
-('Incense', 7),
-('Essential Oils', 7),
-('Perfumes', 7);
+(1, 'Bouquet'),
+(2, 'Couronne'),
+(3, 'Ornements'),
+(4, 'Cactus'),
+(5, 'Fougère'),
+(6, 'Orchidée'),
+(7, 'Bonsaï'),
+(8, 'Plante à fleurs'),
+(9, 'Arbre d''intérieur'),
+(10, 'Plante aérienne'),
+(11, 'Vigne'),
+(12, 'Feuillage'),
+(13, 'Terrarium fermé'),
+(14, 'Terrarium ouvert'),
+(15, 'Terrarium suspendu'),
+(16, 'Terrarium miniature'),
+(17, 'Terrarium aquatique'),
+(18, 'Terrarium désertique'),
+(19, 'Chocolats'),
+(20, 'Bonbons'),
+(21, 'Outils'),
+(22, 'Pots'),
+(23, 'Vases'),
+(24, 'Bougies'),
+(25, 'Encens'),
+(26, 'Huiles essentielles'),
+(27, 'Parfums');
