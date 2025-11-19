@@ -1,7 +1,10 @@
+SET NAMES utf8mb4;
+
 CREATE TABLE IF NOT EXISTS color (
     id INT PRIMARY KEY,
     name VARCHAR(100) NOT NULL UNIQUE
 );
+
 INSERT INTO color (id, name) VALUES
 (1, 'Blanc'),
 (2, 'Bleu'),

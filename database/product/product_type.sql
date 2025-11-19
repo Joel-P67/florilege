@@ -1,10 +1,11 @@
+SET NAMES utf8mb4;
+
 CREATE TABLE IF NOT EXISTS product_type (
     id INT PRIMARY KEY,
     name VARCHAR(100) NOT NULL UNIQUE
 );
 
 INSERT INTO product_type (id, name) VALUES
-
 (1, 'Bouquet'),
 (2, 'Couronne'),
 (3, 'Ornements'),

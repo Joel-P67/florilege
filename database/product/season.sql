@@ -1,3 +1,5 @@
+SET NAMES utf8mb4;
+
 CREATE TABLE IF NOT EXISTS seasons (
     id INT PRIMARY KEY,
     name VARCHAR(100) NOT NULL UNIQUE,
@@ -9,7 +11,7 @@ CREATE TABLE IF NOT EXISTS seasons (
 
 INSERT INTO seasons (id, name, start_day, start_month, end_day, end_month) VALUES
 (1, 'Printemps', 20, 3, 20, 6),
-(2, 'Eté', 21, 6, 22, 9),
+(2, 'Été', 21, 6, 22, 9),
 (3, 'Automne', 23, 9, 20, 12),
 (4, 'Hiver', 21, 12, 19, 3),
 (5, 'Bélier', 21, 3,  20, 4),
